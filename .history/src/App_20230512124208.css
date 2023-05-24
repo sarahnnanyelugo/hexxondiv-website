@@ -1,0 +1,49 @@
+.holder {
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  perspective: 700px;
+}
+.card,
+.front,
+.back {
+  position: absolute;
+  height: inherit;
+  width: inherit;
+  transition: all 0.7s;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+}
+
+/* ::: FACES */
+.front {
+  background: tomato;
+}
+.back {
+  background: slategray;
+}
+
+/* ::: SETUP FACES */
+.flipH .back {
+  transform: rotateY(-180deg);
+}
+
+/* ::: HOVER EFFECTS (Remove Automated for this to work) */
+.flipH:hover .card {
+  transform: rotateY(180deg);
+}
+
+/* ::: AUTOMATED EFFECTS */
+.flipH .card {
+  animation: flipH 2s 0s infinite alternate ease-in-out;
+  -webkit-animation: flipH 2s 0s infinite alternate ease-in-out;
+}
+
+@keyframes flipH {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(-180deg);
+  }
+}

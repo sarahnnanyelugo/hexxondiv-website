@@ -1,0 +1,126 @@
+/* .holder {
+  display: inline-block;
+  width: 164px;
+}
+.card,
+.front,
+.back {
+  position: absolute;
+  height: inherit;
+  width: inherit;
+
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+}
+
+.front {
+  background: tomato;
+}
+.back {
+  background: slategray;
+}
+
+.flipH .back {
+  transform: rotateY(-180deg);
+}
+
+
+.flipH:hover .card {
+  transform: rotateY(180deg);
+}
+
+
+.flipH .card {
+  animation: flipH 6s 0s infinite alternate ease-in-out;
+  -webkit-animation: flipH 6s 0s infinite alternate ease-in-out;
+}
+
+@keyframes flipH {
+  0% {
+    transform: rotateY(0deg);
+    transition: 0s;
+  }
+  100% {
+    transform: rotateY(-180deg);
+    transition: 0s;
+  }
+} */
+
+@media screen and (min-width: 620px) {
+  .flexy {
+    display: flex;
+  }
+}
+@media screen and (max-width: 620px) {
+  .flexyM {
+    display: flex;
+  }
+}
+@font-face {
+  font-family: rebondG;
+  src: url(./assets/fonts/Rebond_font/RebondG.otf);
+}
+@font-face {
+  font-family: rebondG-Bold;
+  src: url(./assets/fonts/Rebond_font/RebondG-Bold.otf);
+}
+@font-face {
+  font-family: rebondG-Semi-Bold;
+  src: url(./assets/fonts/Rebond_font/Rebond-semibold.otf);
+}
+@font-face {
+  font-family: rebondG-Medium;
+  src: url(./assets/fonts/Rebond_font/RebondGrotesqueMedium.otf);
+}
+@font-face {
+  font-family: rebondBook;
+  src: url(./assets/fonts/Rebond_font/RebondG-Book.ttf);
+}
+@font-face {
+  font-family: rebondLight;
+  src: url(./assets/fonts/Rebond_font/RebondGLight.otf);
+}
+
+@font-face {
+  font-family: recoMedium;
+  src: url(./assets/fonts/Recoleto-font/Recoleta-Medium.ttf);
+}
+@font-face {
+  font-family: recoSemiBold;
+  src: url(./assets/fonts/Recoleto-font/Recoleta-SemiBold.ttf);
+}
+@font-face {
+  font-family: recoAltSemiBold;
+  src: url(./assets/fonts/Recoleto-font/RecoletaAlt-SemiBold.ttf);
+}
+@font-face {
+  font-family: recoAltMedium;
+  src: url(./assets/fonts/Recoleto-font/RecoletaAlt-Medium.ttf);
+}
+@font-face {
+  font-family: recoAltRegular;
+  src: url(./assets/fonts/Recoleto-font/RecoletaAlt-Regular.ttf);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: recoAltSemiBold;
+}
+.reco-alt {
+  font-family: recoAltMedium;
+}
+p {
+  font-family: rebondBook;
+  font-size: 16px;
+}
+span {
+  font-family: rebondBook;
+}
+ul li {
+  font-family: rebondBook;
+  font-size: 18px;
+}

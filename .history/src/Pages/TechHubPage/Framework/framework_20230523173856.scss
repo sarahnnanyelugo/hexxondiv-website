@@ -1,0 +1,58 @@
+@import "../../../variables";
+@import "../../../shared-styles";
+.framework-container {
+  margin-top: 100px;
+  @media screen and (max-width: 620px) {
+    margin-left: 0;
+  }
+  .frames {
+    // box-shadow: 0px -1px 7px 8px rgba(234, 235, 237, 0.75);
+    // -webkit-box-shadow: 0px -1px 7px 8px rgba(234, 235, 237, 0.75);
+    // -moz-box-shadow: 0px -1px 7px 8px rgba(234, 235, 237, 0.75);
+    box-shadow: 0 0 10px 10px rgb(195, 192, 192);
+    border-radius: 50%;
+    text-align: center;
+    background: #fff;
+    margin: 40px 60px;
+  }
+  .small-frames {
+    height: 100px;
+    width: 100px;
+    padding-top: 30px;
+  }
+  .big-frames {
+    height: 200px;
+    width: 200px;
+    padding-top: 80px;
+  }
+  .framework-btns {
+    button {
+      border: solid 1px #e7e7e7;
+      border-radius: 35px;
+      background: #fff;
+      color: #000;
+      padding: 20px 22px;
+      margin: 20px;
+      font-family: rebondG-Bold;
+      &:hover {
+        background: $blue;
+        color: #fff;
+        transition: 0.5s ease;
+      }
+    }
+  }
+  .first-row {
+    margin-top: -120px;
+  }
+  .s6 {
+    margin-top: -50px;
+  }
+  .s11 {
+    margin-top: -50px;
+  }
+}
+.box {
+  height: 50px;
+  width: 50px;
+  margin: 5px 5px;
+}

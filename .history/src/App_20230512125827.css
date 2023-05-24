@@ -1,0 +1,47 @@
+/* .holder {
+  display: inline-block;
+  width: 164px;
+}
+.card,
+.front,
+.back {
+  position: absolute;
+  height: inherit;
+  width: inherit;
+
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+}
+
+.front {
+  background: tomato;
+}
+.back {
+  background: slategray;
+}
+
+.flipH .back {
+  transform: rotateY(-180deg);
+}
+
+
+.flipH:hover .card {
+  transform: rotateY(180deg);
+}
+
+
+.flipH .card {
+  animation: flipH 6s 0s infinite alternate ease-in-out;
+  -webkit-animation: flipH 6s 0s infinite alternate ease-in-out;
+}
+
+@keyframes flipH {
+  0% {
+    transform: rotateY(0deg);
+    transition: 0s;
+  }
+  100% {
+    transform: rotateY(-180deg);
+    transition: 0s;
+  }
+} */
