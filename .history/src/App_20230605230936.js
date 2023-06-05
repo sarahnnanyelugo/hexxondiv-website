@@ -9,7 +9,6 @@ import NavBar from "./components/NavBar/NavBar";
 import ScrollToTop from "./components/scrollToTop";
 import HiringPage from "./Pages/HiringPage/HiringPage";
 import Contact from "./Pages/Contact/Contact";
-import Products from "./Pages/Products/Products";
 
 function App() {
   return (
@@ -23,7 +22,7 @@ function App() {
         <Route path="team-hire" element={<TeamHire />} />
         <Route path="hire-page" element={<HiringPage />} />
         <Route path="contact" element={<Contact />} />
-        <Route path="products" element={<Products />} />
+        <Route path="products" element={<Contact />} />
       </Routes>
     </>
   );

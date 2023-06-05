@@ -1,0 +1,9 @@
+.product-container {
+  position: relative;
+  .product-overlay {
+    position: absolute;
+    transform: translate(25%, -50%);
+    top: 50%;
+    color: #fff;
+  }
+}

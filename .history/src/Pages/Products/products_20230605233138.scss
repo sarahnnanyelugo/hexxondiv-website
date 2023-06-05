@@ -1,0 +1,8 @@
+.product-container {
+  position: relative;
+  .product-overlay {
+    position: absolute;
+    transform: translate(0%, -30%);
+    top: 50%;
+  }
+}

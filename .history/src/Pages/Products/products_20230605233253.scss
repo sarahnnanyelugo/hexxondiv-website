@@ -1,0 +1,13 @@
+.product-container {
+  position: relative;
+  height: 500px;
+  .product-overlay {
+    position: absolute;
+    transform: translate(25%, -50%);
+    top: 50%;
+    h1,
+    h4 {
+      color: #fff;
+    }
+  }
+}

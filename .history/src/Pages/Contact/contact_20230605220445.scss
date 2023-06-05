@@ -68,7 +68,6 @@
   }
   button {
     @include division-button;
-    background: $blue2;
-    border: none;
+    background: $red;
   }
 }
