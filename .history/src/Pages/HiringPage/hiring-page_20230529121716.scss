@@ -1,0 +1,9 @@
+@import "../../variables";
+@import "../../shared-styles";
+.hire-container {.hire-form {
+  background: #f5f8ff;
+  height: 600px;
+  .intro-div {
+    background: $navy;
+  }
+}

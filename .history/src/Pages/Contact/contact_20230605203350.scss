@@ -1,0 +1,38 @@
+.contact-div {
+  position: relative;
+}
+.form-div {
+  position: absolute;
+  transform: translate(-0%, -50%);
+  top: 40%;
+  background: #fff;
+  height: fit-content-;
+  padding: 30px;
+  border-radius: 20px;
+  input {
+    height: 56px;
+    width: 100%;
+    padding-left: 20px;
+    border: solid 1px #d6d6d6;
+    border-radius: 10px;
+    margin-top: 25px;
+    font-family: helveticaR;
+  }
+  textarea {
+    width: 100%;
+    padding-left: 20px;
+    border: solid 1px #d6d6d6;
+    border-radius: 10px;
+    margin-top: 25px;
+    height: 200px;
+    font-family: helveticaR;
+  }
+  .form-heading {
+    height: fit-content;
+    // padding: 40px 0;
+    background: url("../../assets/images/contact-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+  }
+}

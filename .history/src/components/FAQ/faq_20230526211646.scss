@@ -1,0 +1,71 @@
+// @import "bourbon";
+
+// * {
+//   @include box-sizing(border-box);
+// }
+h3 {
+  margin: 0;
+  font-size: 1.4em;
+  line-height: 1.2;
+}
+
+.container {
+  max-width: 40em;
+  position: relative;
+  margin: 2em auto;
+  border-right: 1px solid #eee;
+  border-left: 1px solid #eee;
+  box-shadow: rgba(#a5a5a5, 0.3) 0 0 77px;
+}
+
+label {
+  display: block;
+  overflow: hidden;
+}
+
+.title {
+  padding: 1em 3em;
+  position: relative;
+  z-index: 599;
+  background: #fbfbfb;
+  border-bottom: 1px solid #eee;
+  transition: (all 0.3s linear);
+  &:hover {
+    cursor: pointer;
+    background: #f5f5f5;
+  }
+}
+
+.content {
+  position: relative;
+  padding: 0;
+  max-height: 0px;
+  border-bottom: 1px solid #eee;
+  @include transition(max-height 0.3s linear);
+
+  p {
+    position: relative;
+    padding: 1.2em 3em;
+    margin: 0;
+    @include transform(scale(0));
+    opacity: 0;
+    @include transition(all 0.55s ease);
+  }
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type="checkbox"]:checked + .title {
+  background: #c3f7ea;
+}
+
+input[type="checkbox"]:checked + .title + .content {
+  max-height: 555px;
+}
+
+input[type="checkbox"]:checked + .title + .content p {
+  @include transform(scale(1));
+  opacity: 1;
+}
