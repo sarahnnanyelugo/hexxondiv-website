@@ -8,7 +8,7 @@
   background: #fff;
   height: fit-content-;
   //   padding: 30px;
-  box-shadow: 0 0 3px 3px rgb(215, 215, 215);
+  box-shadow: 0 0 3px 3px rgb(239, 232, 232);
   border-radius: 20px;
   input {
     height: 40px;
@@ -30,7 +30,7 @@
   }
   .form-heading {
     height: fit-content;
-    box-shadow: 0 0 3px 3px rgb(215, 215, 215);
+    // border-radius: 20px;
     position: relative;
     width: 100%;
 
@@ -45,7 +45,6 @@
       transform: translate(-0%, -50%);
       border-top-right-radius: 10px;
       border-top-left-radius: 10px;
-      box-shadow: 0 0 3px 3px rgb(215, 215, 215);
       background: rgba(12, 12, 12, 0.7);
       color: #fff;
       height: 100%;
@@ -61,7 +60,4 @@
 .enquiry-form {
   border-radius: 10px;
   //   padding: 5px;
-  h6 {
-    margin-top: 10px;
-  }
 }
