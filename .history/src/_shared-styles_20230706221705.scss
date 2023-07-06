@@ -1,0 +1,141 @@
+.mt1 {
+  margin-top: 10px;
+}
+.mt2 {
+  margin-top: 20px;
+}
+.mt3 {
+  margin-top: 30px;
+}
+.mt4 {
+  margin-top: 40px;
+}
+.mt5 {
+  margin-top: 50px;
+}
+.mt6 {
+  margin-top: 60px;
+}
+.mt7 {
+  margin-top: 70px;
+}
+.mt8 {
+  margin-top: 80px;
+}
+.mt9 {
+  margin-top: 90px;
+}
+.mt {
+  margin-top: 140px;
+}
+.mtt {
+  margin-top: 200px;
+}
+.bb {
+  border-bottom: solid 1px rgb(233, 229, 229);
+}
+.bt {
+  border-top: solid 1px rgb(233, 229, 229);
+}
+.pd {
+  padding: 80px 0;
+}
+.br {
+  border-right: solid 1px rgb(233, 229, 229);
+}
+.features-link {
+  color: #191919;
+  text-decoration: none;
+  &:hover {
+    color: #191919;
+  }
+}
+
+.mb5 {
+  margin-bottom: 50px;
+}
+.mb6 {
+  margin-bottom: 60px;
+}
+.mb7 {
+  margin-bottom: 70px;
+}
+.mb8 {
+  margin-bottom: 80px;
+}
+.mb9 {
+  margin-bottom: 90px;
+}
+.mb10 {
+  margin-bottom: 100px;
+}
+.mb4 {
+  margin-bottom: 40px;
+}
+// @media screen and (max-width: 620px) {
+.sticky-top {
+  z-index: 5 !important;
+}
+// }
+.no-margin {
+  @media screen and (max-width: 620px) {
+    margin-top: 0px !important;
+    text-align: center;
+  }
+}
+.grad2 {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 28%,
+    rgba(240, 240, 240, 1) 48%,
+    rgba(255, 255, 255, 1) 75%
+  );
+}
+.highlight {
+  border-bottom: solid 4px $red;
+  font-family: recoAltSemiBold !important;
+}
+.page-wrapper {
+  animation: Zoomin 0.7s;
+  animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+  -moz-transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  background: #eee;
+  min-height: 100%;
+  min-width: 100%;
+  color: #111;
+  z-index: 1;
+  min-height: 600px;
+  height: 680px;
+  min-width: 800px;
+  width: 100%;
+}
+
+@keyframes Zoomin {
+  from {
+    -moz-transform-origin: 50% 50% 50%;
+    -ms-transform-origin: 50% 50% 50%;
+    -webkit-transform-origin: 50% 50% 50%;
+    transform-origin: 50% 50% 50%;
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+    opacity: 0;
+    -moz-box-shadow: rgba(0, 0, 0, 0.8) 0px 0px 50px inset;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.8) 0px 0px 50px inset;
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 0px 50px inset;
+  }
+  to {
+    opacity: 1;
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -moz-box-shadow: transparent 0 0 0 inset;
+    -webkit-box-shadow: transparent 0 0 0 inset;
+    box-shadow: transparent 0 0 0 inset;
+  }
+}
