@@ -1,0 +1,15 @@
+@import "../../variables";
+@import "../../shared-styles";
+.footer-container {
+  padding-bottom: 60px;
+  color: #fff;
+  h4 {
+    color: #fff;
+  }
+  .footer-links {
+    color: #fff;
+    &:hover {
+      color: $red;
+    }
+  }
+}
