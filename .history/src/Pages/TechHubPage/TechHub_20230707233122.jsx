@@ -49,13 +49,13 @@ function TechHub() {
             ></video>
           </div>
         </div>
-        <center>
-          <h1 className="mt">
-            At hexxondiv Tech Hub, we <span className="highlight">Change </span>{" "}
-            the world with
-          </h1>
-        </center>
         <div className="frameworks-div">
+          <center>
+            <h2>
+              At hexxondiv Tech Hub, we{" "}
+              <span className="highlight">Change </span> the world with
+            </h2>
+          </center>
           <FrameWorks />
         </div>
         <div className="col-md-12 swipper-container flexy">

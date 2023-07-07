@@ -79,7 +79,6 @@
 
 * {
   box-sizing: border-box;
-  // font-family: "Cinzel", serif;
 }
 
 // body {
@@ -94,7 +93,7 @@
   }
 
   .book {
-    --book-height: 130vh;
+    --book-height: 100vh;
     --book-ratio: 1.4;
   }
 
@@ -132,13 +131,14 @@
     right: 20px;
     top: 0;
     bottom: 0;
-    background-color: rgb(12, 12, 87);
+    background-color: #b11509;
   }
 
   h1 {
+    font-family: "Petemoss", cursive;
     font-size: 98px;
     font-weight: 300;
-    color: rgb(14, 14, 111);
+    color: #dbd75d;
   }
 
   h2 {
@@ -177,18 +177,11 @@
     transform: scale(0.9) translateY(30px);
     background-color: white !important;
     transition: all 0.3s 1s;
-    img {
-      border-radius: 20px;
-    }
-    .frames {
-      // height: 300px;
-      // background: black;
-    }
   }
 
   .book-content h3,
   .book-content p {
-    opacity: 0;
+    opacity: 1;
     transition: all 0.3s 0.3s;
   }
 
@@ -211,7 +204,7 @@
   }
 
   .book:hover > .book-cover > div {
-    opacity: 0;
+    opacity: 1;
   }
 
   .book:hover > .book-content {

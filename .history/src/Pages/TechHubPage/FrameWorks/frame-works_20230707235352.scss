@@ -94,7 +94,7 @@
   }
 
   .book {
-    --book-height: 130vh;
+    --book-height: 120vh;
     --book-ratio: 1.4;
   }
 
@@ -132,13 +132,13 @@
     right: 20px;
     top: 0;
     bottom: 0;
-    background-color: rgb(12, 12, 87);
+    background-color: #b11509;
   }
 
   h1 {
     font-size: 98px;
     font-weight: 300;
-    color: rgb(14, 14, 111);
+    color: #dbd75d;
   }
 
   h2 {
@@ -181,8 +181,8 @@
       border-radius: 20px;
     }
     .frames {
-      // height: 300px;
-      // background: black;
+      height: 200px;
+      background: black;
     }
   }
 

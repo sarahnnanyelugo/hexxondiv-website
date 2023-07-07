@@ -30,23 +30,15 @@ function FrameWorks() {
               {" "}
               <div className="frames small-frames col-md4 ">
                 <img className="   logo" src={FW8} alt="Scholar" width="100%" />
-                <center>
-                  {" "}
-                  <h3>CSS</h3>
-                </center>
-              </div>
-              <div className="frames small-frames col-md-4 s1">
-                <img className="   logo" src={FW1} alt="Scholar" width="100%" />
-                <center>
-                  <h3>Reactjs</h3>
-                </center>
+                <h6>CSS</h6>
               </div>
               <div className="frames small-frames col-md-4 ">
                 <img className="   logo" src={FW6} alt="Scholar" width="100%" />
-                <center>
-                  {" "}
-                  <h3>SCSS</h3>
-                </center>
+                <h6>SCSS</h6>
+              </div>
+              <div className="frames small-frames col-md-4 s1">
+                <img className="   logo" src={FW1} alt="Scholar" width="100%" />
+                <h6>Reactjs</h6>
               </div>
             </div>
             <br />
@@ -54,29 +46,15 @@ function FrameWorks() {
               {" "}
               <div className="frames small-frames col-md-4">
                 <img className="   logo" src={FW3} alt="Scholar" width="100%" />
-                <center>
-                  {" "}
-                  <h3>Carbon </h3>
-                </center>
+                <h6>Carbon </h6>
+              </div>
+              <div className="frames small-frames col-md-4 ">
+                <img className="   logo" src={FW12} alt="Scholar" width="50%" />
+                <h6>MDB</h6>
               </div>
               <div className="frames small-frames col-md-4 s9">
                 <img className="   logo" src={FW9} alt="Scholar" width="100%" />
-                <center>
-                  {" "}
-                  <h3>HTML</h3>
-                </center>
-              </div>
-              <div className="frames small-frames col-md-4 ">
-                <img
-                  className="   logo"
-                  src={FW12}
-                  alt="Scholar"
-                  width="100%"
-                />
-                <center>
-                  {" "}
-                  <h3>MDB</h3>
-                </center>
+                <h6>HTML</h6>
               </div>
             </div>
             <div className="flexy">
@@ -87,17 +65,11 @@ function FrameWorks() {
                   alt="Scholar"
                   width="100%"
                 />
-                <center>
-                  {" "}
-                  <h3>Materialv Ui</h3>
-                </center>
+                <h6>Materialv Ui</h6>
               </div>
               <div className="frames small-frames col-md-4 ">
                 <img className="   logo" src={FW4} alt="Scholar" width="100%" />
-                <center>
-                  {" "}
-                  <h3>Bootstrap</h3>
-                </center>
+                <h6>Bootstrap</h6>
               </div>
             </div>
           </div>

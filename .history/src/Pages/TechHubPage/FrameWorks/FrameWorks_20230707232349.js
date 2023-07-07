@@ -1,113 +1,14 @@
 import React from "react";
-import "./frame-works.scss";
-import FW1 from "../../../assets/images/react.png";
-import FW6 from "../../../assets/images/scss.png";
-import FW4 from "../../../assets/images/bootstrap.svg";
-import FW10 from "../../../assets/images/material-ui.jpeg";
-import FW12 from "../../../assets/images/mdb.jpg";
-import FW8 from "../../../assets/images/css.png";
-import FW9 from "../../../assets/images/html.jpeg";
-import FW3 from "../../../assets/images/carbon-design.png";
-import FW7 from "../../../assets/images/php.jpg";
-import FW11 from "../../../assets/images/python.jpeg";
-import FW2 from "../../../assets/images/c#.png";
-import FW5 from "../../../assets/images/node.png";
+import "frame-works.scss";
 function FrameWorks() {
   return (
-    <div className="frameworks-div flexy col-md-10 offset-md-1">
+    <div classNameName="frameworks-div">
       {" "}
-      <div classNameName="framework-cova col-md-6">
+      <div classNameName="framework-cova">
         <div className="book">
           <div className="book-cover">
             <div>
-              <h1>FRONTEND</h1>
-              <div className="separator"></div>
-              <h2>by Virginia Woolf</h2>
-            </div>
-          </div>
-          <div className="book-content ">
-            <div className="flexy col-md-12">
-              {" "}
-              <div className="frames small-frames col-md4 ">
-                <img className="   logo" src={FW8} alt="Scholar" width="100%" />
-                <center>
-                  {" "}
-                  <h3>CSS</h3>
-                </center>
-              </div>
-              <div className="frames small-frames col-md-4 s1">
-                <img className="   logo" src={FW1} alt="Scholar" width="100%" />
-                <center>
-                  <h3>Reactjs</h3>
-                </center>
-              </div>
-              <div className="frames small-frames col-md-4 ">
-                <img className="   logo" src={FW6} alt="Scholar" width="100%" />
-                <center>
-                  {" "}
-                  <h3>SCSS</h3>
-                </center>
-              </div>
-            </div>
-            <br />
-            <div className="flexy col-md-12">
-              {" "}
-              <div className="frames small-frames col-md-4">
-                <img className="   logo" src={FW3} alt="Scholar" width="100%" />
-                <center>
-                  {" "}
-                  <h3>Carbon </h3>
-                </center>
-              </div>
-              <div className="frames small-frames col-md-4 s9">
-                <img className="   logo" src={FW9} alt="Scholar" width="100%" />
-                <center>
-                  {" "}
-                  <h3>HTML</h3>
-                </center>
-              </div>
-              <div className="frames small-frames col-md-4 ">
-                <img
-                  className="   logo"
-                  src={FW12}
-                  alt="Scholar"
-                  width="100%"
-                />
-                <center>
-                  {" "}
-                  <h3>MDB</h3>
-                </center>
-              </div>
-            </div>
-            <div className="flexy">
-              <div className="frames small-frames col-md-4 s10">
-                <img
-                  className="   logo"
-                  src={FW10}
-                  alt="Scholar"
-                  width="100%"
-                />
-                <center>
-                  {" "}
-                  <h3>Materialv Ui</h3>
-                </center>
-              </div>
-              <div className="frames small-frames col-md-4 ">
-                <img className="   logo" src={FW4} alt="Scholar" width="100%" />
-                <center>
-                  {" "}
-                  <h3>Bootstrap</h3>
-                </center>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div classNameName="framework-cova col-md-6">
-        <div className="book">
-          <div className="book-cover">
-            <div>
-              <h1>BACKEND</h1>
+              <h1>Mrs. Dalloway</h1>
               <div className="separator"></div>
               <h2>by Virginia Woolf</h2>
             </div>

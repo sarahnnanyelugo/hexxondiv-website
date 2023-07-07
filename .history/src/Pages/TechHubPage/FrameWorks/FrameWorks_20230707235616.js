@@ -35,17 +35,17 @@ function FrameWorks() {
                   <h3>CSS</h3>
                 </center>
               </div>
-              <div className="frames small-frames col-md-4 s1">
-                <img className="   logo" src={FW1} alt="Scholar" width="100%" />
-                <center>
-                  <h3>Reactjs</h3>
-                </center>
-              </div>
               <div className="frames small-frames col-md-4 ">
                 <img className="   logo" src={FW6} alt="Scholar" width="100%" />
                 <center>
                   {" "}
                   <h3>SCSS</h3>
+                </center>
+              </div>
+              <div className="frames small-frames col-md-4 s1">
+                <img className="   logo" src={FW1} alt="Scholar" width="100%" />
+                <center>
+                  <h3>Reactjs</h3>
                 </center>
               </div>
             </div>

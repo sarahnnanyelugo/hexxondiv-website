@@ -50,10 +50,10 @@ function TechHub() {
           </div>
         </div>
         <center>
-          <h1 className="mt">
+          <h2>
             At hexxondiv Tech Hub, we <span className="highlight">Change </span>{" "}
             the world with
-          </h1>
+          </h2>
         </center>
         <div className="frameworks-div">
           <FrameWorks />
