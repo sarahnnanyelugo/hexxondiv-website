@@ -123,19 +123,16 @@ function FrameWorks() {
             </div>
             <div className="flexy">
               <div className="frames small-frames col-md-4 s10">
-                <div className="col-md-11">
+                <img
+                  className="   logo"
+                  src={FW10}
+                  alt="Scholar"
+                  width="100%"
+                />
+                <center>
                   {" "}
-                  <img
-                    className="   logo"
-                    src={FW10}
-                    alt="Scholar"
-                    width="100%"
-                  />
-                  <center>
-                    {" "}
-                    <h3>Materialv Ui</h3>
-                  </center>
-                </div>
+                  <h3>Materialv Ui</h3>
+                </center>
               </div>
               <div className="frames small-frames col-md-4 ">
                 <img className="   logo" src={FW4} alt="Scholar" width="100%" />

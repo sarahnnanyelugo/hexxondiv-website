@@ -44,98 +44,61 @@ function FrameWorks() {
                 </div>
               </div>
               <div className="frames small-frames col-md-4 s1">
-                <div className="col-md-11">
-                  {" "}
-                  <img
-                    className="   logo"
-                    src={FW1}
-                    alt="Scholar"
-                    width="100%"
-                  />
-                  <center>
-                    <h3>Reactjs</h3>
-                  </center>
-                </div>
+                <img className="   logo" src={FW1} alt="Scholar" width="100%" />
+                <center>
+                  <h3>Reactjs</h3>
+                </center>
               </div>
               <div className="frames small-frames col-md-4 ">
-                <div className="col-md-11">
-                  <img
-                    className="   logo"
-                    src={FW6}
-                    alt="Scholar"
-                    width="100%"
-                  />
-                  <center>
-                    {" "}
-                    <h3>SCSS</h3>
-                  </center>
-                </div>
+                <img className="   logo" src={FW6} alt="Scholar" width="100%" />
+                <center>
+                  {" "}
+                  <h3>SCSS</h3>
+                </center>
               </div>
             </div>
             <br />
             <div className="flexy col-md-12">
               {" "}
               <div className="frames small-frames col-md-4">
-                <div className="col-md-11">
+                <img className="   logo" src={FW3} alt="Scholar" width="100%" />
+                <center>
                   {" "}
-                  <img
-                    className="   logo"
-                    src={FW3}
-                    alt="Scholar"
-                    width="100%"
-                  />
-                  <center>
-                    {" "}
-                    <h3>Carbon </h3>
-                  </center>
-                </div>
+                  <h3>Carbon </h3>
+                </center>
               </div>
               <div className="frames small-frames col-md-4 s9">
-                <div className="col-md-11">
+                <img className="   logo" src={FW9} alt="Scholar" width="100%" />
+                <center>
                   {" "}
-                  <img
-                    className="   logo"
-                    src={FW9}
-                    alt="Scholar"
-                    width="100%"
-                  />
-                  <center>
-                    {" "}
-                    <h3>HTML</h3>
-                  </center>
-                </div>
+                  <h3>HTML</h3>
+                </center>
               </div>
               <div className="frames small-frames col-md-4 ">
-                <div className="col-md-11">
+                <img
+                  className="   logo"
+                  src={FW12}
+                  alt="Scholar"
+                  width="100%"
+                />
+                <center>
                   {" "}
-                  <img
-                    className="   logo"
-                    src={FW12}
-                    alt="Scholar"
-                    width="100%"
-                  />
-                  <center>
-                    {" "}
-                    <h3>MDB</h3>
-                  </center>
-                </div>
+                  <h3>MDB</h3>
+                </center>
               </div>
             </div>
             <div className="flexy">
               <div className="frames small-frames col-md-4 s10">
-                <div className="col-md-11">
+                <img
+                  className="   logo"
+                  src={FW10}
+                  alt="Scholar"
+                  width="100%"
+                />
+                <center>
                   {" "}
-                  <img
-                    className="   logo"
-                    src={FW10}
-                    alt="Scholar"
-                    width="100%"
-                  />
-                  <center>
-                    {" "}
-                    <h3>Materialv Ui</h3>
-                  </center>
-                </div>
+                  <h3>Materialv Ui</h3>
+                </center>
               </div>
               <div className="frames small-frames col-md-4 ">
                 <img className="   logo" src={FW4} alt="Scholar" width="100%" />
