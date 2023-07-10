@@ -4,7 +4,7 @@ import { Link, NavLink } from "react-router-dom";
 import "./_navbar.scss";
 import { useLocation } from "react-router-dom";
 // import Icofont from "react-icofont";
-import Logo from "../../assets/images/tech-hub-logo2.png";
+import Logo from "../../assets/images/tech-hub-logo.jpeg";
 
 function NavBar() {
   const prevUrlRef = useRef(null);
