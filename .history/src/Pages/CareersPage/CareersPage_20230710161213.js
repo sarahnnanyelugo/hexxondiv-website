@@ -1,7 +1,7 @@
 import React from "react";
 import LandingImg from "../../assets/images/careerslanding.png";
 import "./careers.scss";
-import Logo from "../../assets/images/tech-logo.png";
+import Logo from "../../assets/images/tech-logo.jpeg";
 
 import CountUp from "react-countup";
 import FAQ from "./FAQ/FAQ";
