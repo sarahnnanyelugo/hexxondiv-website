@@ -18,8 +18,6 @@ import Icon1 from "../../assets/images/trans.png";
 import Icon2 from "../../assets/images/trust.png";
 import Icon3 from "../../assets/images/expert.png";
 import Icon4 from "../../assets/images/open.png";
-import PJM from "../../assets/images/pjM2.png";
-import PJW from "../../assets/images/pjW.png";
 function Home() {
   return (
     <>
@@ -95,41 +93,44 @@ function Home() {
             <TechHub />
           </div>{" "}
         </div>
-        <div className="col-md-10 offset-md-1 mtt">
-          <div className="flexy">
-            <div className="flexy col-md-8">
-              <div className="col-md-3">
-                {" "}
-                <img className="" src={PJM} alt="Scholar" width="100%" />{" "}
-              </div>{" "}
-              <div className="col-md-9">
-                {" "}
-                <img className="" src={PJW} alt="Scholar" width="100%" />{" "}
-              </div>
-            </div>
-            <div className="col-md-3  offset-md-1">
-              <a
-                href="https://powerjet.ng/"
-                className="product3-heading mt6"
-                target="_blank"
-              >
-                Powerjet.ng
-              </a>
+        <div className="col-md-10 offset-md-1 mt products">
+          <h1 style={{ fontSize: "50px" }}>Our Products</h1>
+          <div className="flexy mt">
+            <div className="col-md-3">
+              <Link className="product1-heading mt6">Tiny.ng</Link>
               <br />
               <br />
               <p>
-                PowerJet.Ng is the fastest, most reliable and simplified utility
-                payment in Nigeria. It helps pay for your electricity bills
-                online, from the comfort of your homes and offices, having your
-                token printed out and sent to your mail or dashboard.
-                Powerjet.ng has the sole purpose to bridge customers complain on
-                the availability of the comfort in electricity bill/unit payment
-                and ensure adequate reliable process for this need. You can send
-                us a mail at{""}
-                <a href="#">powerjetng@gmail.com</a>
+                Introducing Tiny.ng, the ultimate solution for transforming
+                those cumbersome, lengthy URLs into sleek, concise, and
+                eye-catching links! Our innovative software application
+                specializes in shortening those long and unsightly web
+                addresses, making them not only more visually appealing but also
+                uniquely identifiable. Whether you're crafting an
+                attention-grabbing advertisement banner or sharing links in a
+                professional context, Tiny.ng is your secret weapon. Say goodbye
+                to clunky URLs that clutter your marketing materials; with
+                Tiny.ng, elegance and precision are just a click away. Make your
+                online presence stand out effortlessly with Tiny.ng – your
+                trusted partner in URL optimization!
               </p>
             </div>
+            <div className="flexy col-md-8 offset-md-1">
+              <div className="col-md-3">
+                {" "}
+                <img className="" src={Phone} alt="Scholar" width="100%" />{" "}
+              </div>{" "}
+              <div className="col-md-9">
+                {" "}
+                <img className="" src={Web} alt="Scholar" width="100%" />{" "}
+              </div>
+            </div>
           </div>
+          <center className="mt">
+            <Link to={"/products"} className="link">
+              View All
+            </Link>
+          </center>
         </div>
         <center>
           <h1 style={{ marginTop: "150px" }}>
