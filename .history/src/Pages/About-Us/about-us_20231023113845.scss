@@ -1,0 +1,32 @@
+// .centered {
+//   top: 80%;
+//   left: 20%;
+//   h1 {
+//     color: #343333;
+//   }
+// }
+.left {
+  height: 700px;
+  background: rgb(0, 19, 43);
+  background: linear-gradient(
+    71deg,
+    rgba(0, 19, 43, 1) 80%,
+    rgba(16, 82, 131, 1) 100%
+  );
+  padding-top: 100px;
+  h1 {
+    color: #fff;
+    font-size: 50px;
+  }
+}
+.about-body {
+  span {
+    color: grey;
+  }
+}
+.services-div {
+  background: #0b416b;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #fff;
+}

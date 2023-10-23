@@ -1,0 +1,17 @@
+// .centered {
+//   top: 80%;
+//   left: 20%;
+//   h1 {
+//     color: #343333;
+//   }
+// }
+.left {
+  height: 700px;
+  background: rgb(0, 19, 43);
+  background: linear-gradient(
+    71deg,
+    rgba(0, 19, 43, 1) 80%,
+    rgba(16, 82, 131, 1) 100%
+  );
+  padding-top: 100px;
+}
