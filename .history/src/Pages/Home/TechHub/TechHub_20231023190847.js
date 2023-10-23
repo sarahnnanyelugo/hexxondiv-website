@@ -5,8 +5,7 @@ import { Link } from "react-router-dom";
 import HRDashboard from "../../../assets/images/mobile-app.jpg";
 import HRDashboard3 from "../../../assets/images/dash3.jpg";
 import HRDashboard2 from "../../../assets/images/dash4.jpg";
-import HRDashboard4 from "../../../assets/images/ux.jpg";
-import HRDashboard5 from "../../../assets/images/consultancy.jpg";
+import HRDashboard4 from "../../../assets/images/ui.png";
 
 const TechHub = () => {
   const [updateImage, setUpdateImage] = useState(HRDashboard);
@@ -22,8 +21,8 @@ const TechHub = () => {
   function displayImageImage4() {
     setUpdateImage(HRDashboard4);
   }
-  function displayImageImage5() {
-    setUpdateImage(HRDashboard5);
+  function displayImageImage4() {
+    setUpdateImage(HRDashboard4);
   }
   return (
     <div className="dashboard-accordion-container flexy col-md-12 ">
@@ -107,7 +106,7 @@ const TechHub = () => {
               </Accordion.Body>
             </Accordion.Item>{" "}
             <Accordion.Item eventKey="4">
-              <Accordion.Header onClick={() => displayImageImage5()}>
+              <Accordion.Header onClick={() => displayImageImage4()}>
                 <h6>
                   <span>
                     <i class="icofont-group-students"></i>

@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import HRDashboard from "../../../assets/images/mobile-app.jpg";
 import HRDashboard3 from "../../../assets/images/dash3.jpg";
 import HRDashboard2 from "../../../assets/images/dash4.jpg";
-import HRDashboard4 from "../../../assets/images/ux.jpg";
+import HRDashboard4 from "../../../assets/images/ui.png";
 import HRDashboard5 from "../../../assets/images/consultancy.jpg";
 
 const TechHub = () => {
