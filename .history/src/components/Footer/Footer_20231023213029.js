@@ -21,12 +21,6 @@ function Footer(props) {
             </div>
           </center>
           <div className="col-md-10 offset-md-1 flexy">
-            <div className="col-md-3">
-              <h4>SERVICES</h4>
-              <p> Custom Software Development</p>
-              <p> Mobile App Development</p> <p> Web Development</p>{" "}
-              <p> UI/UX Design</p> <p> Consulting and Strategy</p>
-            </div>
             <div className="col-md-3 ">
               <h4>POPULAR WORKS</h4>
               <p>
@@ -52,6 +46,34 @@ function Footer(props) {
                 {/* <Link to={"/tech-hub-page"} className="footer-links">
                   Hexxondiv TechHub
                 </Link> */}
+              </p>
+            </div>
+            <div className="col-md-3">
+              <h4>SERVICES</h4>
+              <p>
+                {" "}
+                <Link to={"/tech-hub-page"} className="footer-links">
+                  Custom Software Development
+                </Link>
+              </p>
+              <p> Mobile App Development</p>{" "}
+              <p>
+                {" "}
+                <Link to={"/tech-hub-page"} className="footer-links">
+                  Web Development
+                </Link>
+              </p>{" "}
+              <p>
+                {" "}
+                <Link to={"/tech-hub-page"} className="footer-links">
+                  UI/UX Design
+                </Link>
+              </p>{" "}
+              <p>
+                {" "}
+                <Link to={"/tech-hub-page"} className="footer-links">
+                  Consulting and Strategy
+                </Link>
               </p>
             </div>{" "}
             <div className="col-md-3 ">

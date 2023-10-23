@@ -11,7 +11,7 @@ import Apart from "../../assets/images/apart.jpg";
 import { Link } from "react-router-dom";
 import Logo from "../../assets/images/tech-hub.png";
 import Footer from "../../components/Footer/Footer";
-import FAQ from "../../components/FAQ/FAQ";
+import FAQ from "../CareersPage/FAQ/FAQ";
 
 function AboutUs() {
   return (
@@ -58,27 +58,10 @@ function AboutUs() {
               drives business success.
             </p>
           </div>
-          <div className="col-md-6">
-            {" "}
-            <img
-              className="tech-logo"
-              src={About}
-              alt="Scholar"
-              width="100%"
-            />{" "}
-          </div>
         </div>
         <div className="flexy mt">
+          <div className="col-md-6">&nbsp;</div>
           <div className="col-md-6">
-            {" "}
-            <img
-              className="tech-logo"
-              src={Apart}
-              alt="Scholar"
-              width="100%"
-            />{" "}
-          </div>
-          <div className="col-md-6" style={{ padding: "10px" }}>
             <h1>What Sets Us Apart</h1>
             <p>
               <strong> Expertise: </strong>Our team of developers, designers,

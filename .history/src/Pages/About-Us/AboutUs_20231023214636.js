@@ -11,7 +11,7 @@ import Apart from "../../assets/images/apart.jpg";
 import { Link } from "react-router-dom";
 import Logo from "../../assets/images/tech-hub.png";
 import Footer from "../../components/Footer/Footer";
-import FAQ from "../../components/FAQ/FAQ";
+import FAQ from "../CareersPage/FAQ/FAQ";
 
 function AboutUs() {
   return (
