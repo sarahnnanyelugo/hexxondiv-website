@@ -24,7 +24,7 @@ function Home() {
   return (
     <>
       <div className="col-md-12 page-wrapper col-12">
-        <div className="col-md-12 home-container col-12">
+        {/* <div className="col-md-12 home-container col-12">
           <div className="col-md-5 offset-md-1">
             <h1>Streamlining Operations and Driving Growth.</h1>
             <p>
@@ -36,7 +36,7 @@ function Home() {
               <button>Get started</button>
             </Link>
           </div>
-        </div>
+        </div> */}
         <center className="mtt">
           <h1>Some of our Trusted Partners</h1>
         </center>

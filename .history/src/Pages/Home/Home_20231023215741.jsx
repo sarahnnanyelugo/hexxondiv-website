@@ -23,8 +23,8 @@ import PJW from "../../assets/images/pjW.png";
 function Home() {
   return (
     <>
-      <div className="col-md-12 page-wrapper col-12">
-        <div className="col-md-12 home-container col-12">
+      <div className="col-md-12 page-wrapper">
+        <div className="col-md-12 home-container ">
           <div className="col-md-5 offset-md-1">
             <h1>Streamlining Operations and Driving Growth.</h1>
             <p>
@@ -36,6 +36,20 @@ function Home() {
               <button>Get started</button>
             </Link>
           </div>
+          {/* <div className="col-md-6 offset-md-1 flexy flexyM second-div ">
+            <div className="col-md-4 col-5">
+              <FlipTab />
+            </div>
+            <div className="col-md-8 screen-div col-7">
+              {" "}
+              <img
+                className="   logo"
+                src={Screen}
+                alt="Scholar"
+                width="100%"
+              />
+            </div>
+          </div> */}
         </div>
         <center className="mtt">
           <h1>Some of our Trusted Partners</h1>
@@ -44,45 +58,25 @@ function Home() {
           <div className="col-md-3">
             <center>
               {" "}
-              <img
-                className="   logo"
-                src={Silverbird}
-                alt="Scholar"
-                width="100%"
-              />
+              <img className="   logo" src={Silverbird} alt="Scholar" />
             </center>
           </div>
           <div className="col-md-3 col-12">
             <center>
               {" "}
-              <img
-                className="  mt2"
-                src={Switchapp}
-                alt="Scholar"
-                width="100%"
-              />
+              <img className="  mt2" src={Switchapp} alt="Scholar" />
             </center>
           </div>
           <div className="col-md-3">
             <center>
               {" "}
-              <img
-                className=" mt1 "
-                src={Powerjet}
-                alt="Scholar"
-                width="100%"
-              />
+              <img className=" mt1 " src={Powerjet} alt="Scholar" />
             </center>
           </div>
           <div className="col-md-3">
             <center>
               {" "}
-              <img
-                className="   logo"
-                src={Educare}
-                alt="Scholar"
-                width="100%"
-              />
+              <img className="   logo" src={Educare} alt="Scholar" />
             </center>
           </div>
         </div>

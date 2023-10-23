@@ -37,7 +37,7 @@ function NavBar() {
   }, [location.pathname]);
   return (
     <>
-      <div className="col-md-12" style={{ background: themeSet }}>
+      <div className="col-md-12 col-12" style={{ background: themeSet }}>
         <div className="tech-nav col-md-10 offset-md-1">
           {" "}
           <div className=" col-md-2 tech-logo-div">

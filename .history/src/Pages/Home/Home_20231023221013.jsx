@@ -23,8 +23,8 @@ import PJW from "../../assets/images/pjW.png";
 function Home() {
   return (
     <>
-      <div className="col-md-12 page-wrapper col-12">
-        <div className="col-md-12 home-container col-12">
+      <div className="col-md-12 page-wrapper">
+        <div className="col-md-12 home-container ">
           <div className="col-md-5 offset-md-1">
             <h1>Streamlining Operations and Driving Growth.</h1>
             <p>

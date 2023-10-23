@@ -94,12 +94,12 @@ function Home() {
               Subdivisions
             </h1>
           </center> */}
-          <div className="col-md-10 offset-md-1 tech-hub-div">
+          {/* <div className="col-md-10 offset-md-1 tech-hub-div">
             <h4>
               <span className="animate-charcter">OUR SERVICES</span>
             </h4>
             <TechHub />
-          </div>{" "}
+          </div>{" "} */}
         </div>
         <div className="col-md-10 offset-md-1 mtt">
           <div className="flexy">

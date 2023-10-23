@@ -40,7 +40,7 @@ function Home() {
         <center className="mtt">
           <h1>Some of our Trusted Partners</h1>
         </center>
-        <div className="col-md-10 offset-md-1 flexy mt2 mb5 partners">
+        {/* <div className="col-md-10 offset-md-1 flexy mt2 mb5 partners">
           <div className="col-md-3">
             <center>
               {" "}
@@ -85,7 +85,7 @@ function Home() {
               />
             </center>
           </div>
-        </div>
+        </div> */}
 
         <div className="col-md-12 divisions-div">
           {/* <center className="mt mb10">

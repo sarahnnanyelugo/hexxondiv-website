@@ -125,3 +125,8 @@
 .menu-links {
   padding: 10px 5px;
 }
+.web-view {
+  @media screen and (max-width: 620px) {
+    display: none;
+  }
+}
