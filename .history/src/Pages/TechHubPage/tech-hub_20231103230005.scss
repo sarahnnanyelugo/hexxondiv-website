@@ -1,93 +1,46 @@
 @import "../../variables";
 @import "../../shared-styles";
-
-.product-container2 {
-  position: relative;
-
-  img {
-    height: 800px;
+.image-container {
+  @media screen and (max-width: 620px) {
+    height: fit-content;
+    background-color: $blue;
+    margin-bottom: 0px;
+  }
+  .viddeo {
     @media screen and (max-width: 620px) {
-      height: 400px;
-    }
-  }
-  .product-overlay2 {
-    position: absolute;
-    // transform: translate(0%, -50%);
-    top: 40%;
-    h1,
-    h4 {
-      color: #fff;
-    }
-    h1 {
-      font-size: 70px;
-      color: #fff;
-      text-shadow: 5px 5px 10px black;
-      @media screen and (max-width: 620px) {
-        font-size: 40px;
-      }
-    }
-    h4 {
-      font-weight: bold;
+      height: 800px;
+      transform: translateX(0%) translateY(0%);
+      object-fit: cover;
     }
   }
 }
-.portfolio-section {
-  padding-bottom: 120px;
-  padding-top: 80px;
+// #home-top-video:before {
+//   content: "";
+//   position: absolute;
+//   top: 0;
+//   right: 0;
+//   left: 0;
+//   bottom: 0;
+//   z-index: 1;
+//   background-image: linear-gradient(90deg, #004f9d 35%, rgba(0, 7, 13, 0) 100%);
+//   opacity: 0.9;
+// }
+
+#home-top-video {
+  left: 0%;
+  margin-top: -9% !important;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  // position: fixed;
+  z-index: -1;
 }
-.portfolio-slide {
-  background: rgb(255, 255, 255);
-  background: linear-gradient(
-    71deg,
-    rgba(255, 255, 255, 1) 3%,
-    rgba(249, 229, 229, 1) 47%,
-    rgba(255, 255, 255, 1) 98%
-  );
-  a {
-    position: relative;
-    z-index: 1000;
-    color: #3099da;
-    text-decoration: none;
-    &:hover {
-      text-decoration: underline;
-    }
-  }
-}
-.preview {
-  height: 500px;
-  @media screen and (max-width: 620px) {
-    height: 400px;
-  }
-}
-.carousel-control-next-icon {
-  background-image: url("../../assets/images/next.png");
-  margin-left: 150px !important;
-  position: relative !important;
-  margin-top: -60px !important;
-  border-radius: 100%;
-}
-.carousel-control-prev-icon {
-  background-image: url("../../assets/images/prev.png");
-  margin-right: 150px !important;
-  margin-top: -60px !important;
-}
-.carousel-indicators button {
-  background: #3099da !important;
-  border: solid 1px #707070 !important;
-  border-radius: 50% !important;
-  height: 7px !important;
-  width: 7px !important;
-  margin-top: 400px !important;
-}
-.port-para {
-  padding: 280px 0 80px 0;
-  @media screen and (max-width: 620px) {
-    padding: 0px 0;
-    margin-top: -70px;
-  }
+
+.frameworks-div {
 }
 
 .swipes {
+  padding-left: 50px;
   @media screen and (max-width: 620px) {
     padding-left: 0px;
     overflow: hidden;
@@ -187,7 +140,7 @@
   }
 }
 .swipes2 {
-  // margin-top: 180px;
+  margin-top: 180px;
 
   .swiper {
     width: 100%;

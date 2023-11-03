@@ -88,14 +88,11 @@
 }
 
 .swipes {
-  @media screen and (max-width: 620px) {
-    padding-left: 0px;
-    overflow: hidden;
-  }
+  padding-left: 50px;
   .swiper {
     width: 100%;
     height: 400px;
-    margin-top: 250px;
+    // margin-top: 250px;
   }
   .swiper-slide {
     display: flex;
@@ -178,6 +175,7 @@
   }
   .swipper-container {
     margin-bottom: 150px !important;
+    margin-top: 250px;
   }
 
   .detail-slide {
@@ -187,7 +185,7 @@
   }
 }
 .swipes2 {
-  // margin-top: 180px;
+  margin-top: 180px;
 
   .swiper {
     width: 100%;

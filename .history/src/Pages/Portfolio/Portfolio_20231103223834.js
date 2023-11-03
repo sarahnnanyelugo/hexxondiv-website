@@ -55,6 +55,7 @@ export const Portfolio = () => {
         </center>
       </div>
       <div className="col-md-10 offset-md-1 port-para">
+        {" "}
         <center>
           <h1>OUR PORTFOLIO</h1>
           <p>
@@ -284,141 +285,146 @@ export const Portfolio = () => {
           </Carousel.Item>
         </Carousel>
       </div>
-      <h1 className="mobile-view">How we’ve helped other businesses</h1>
-      <div className="col-md-12 swipper-container flexy">
-        <div className="col-md-4 offset-md-1 swipes col-12">
-          {" "}
-          <div className="col-md-11 ">
+
+      <div className="col-md-12 swipper-container ">
+        <h1 className="mobile-view">How we’ve helped other businesses</h1>
+        <div className="col-md-12  flexy">
+          <div className="col-md-4 offset-md-1 swipes col-12">
+            {" "}
+            <div className="col-md-11 ">
+              <Swiper
+                effect={"cards"}
+                grabCursor={true}
+                pagination={pagination}
+                // eslint-disable-next-line no-undef
+                modules={[EffectCards, Autoplay, Pagination]}
+                className="mySwiper"
+                autoplay={{
+                  delay: 3000,
+                  disableOnInteraction: false,
+                }}
+                navigation={true}
+                // eslint-disable-next-line react/jsx-no-duplicate-props
+              >
+                <SwiperSlide>
+                  <div className="logo-slide">
+                    <img className="   logo" src={Educare} alt="Scholar" />
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="logo-slide">
+                    <center>
+                      {" "}
+                      <img className="   logo" src={Silverbird} alt="Scholar" />
+                    </center>
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="logo-slide">
+                    <center>
+                      {" "}
+                      <img className="   logo" src={Powerjet} alt="Scholar" />
+                    </center>
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="logo-slide">
+                    <center>
+                      {" "}
+                      <img className="   logo" src={Switchapp} alt="Scholar" />
+                    </center>
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="logo-slide">
+                    <h4>slider5</h4>
+                  </div>
+                </SwiperSlide>
+              </Swiper>
+            </div>
+          </div>
+          <div className="col-md-4 offset-md-1 swipes2">
+            <h1 className="web-view">How we’ve helped other businesses</h1>
             <Swiper
-              effect={"cards"}
-              grabCursor={true}
+              spaceBetween={30}
+              effect={"fade"}
+              navigation={true}
+              // pagination={{
+              //   clickable: true,
+              // }}
               pagination={pagination}
-              // eslint-disable-next-line no-undef
-              modules={[EffectCards, Autoplay, Pagination]}
-              className="mySwiper"
+              modules={[EffectFade, Pagination, Autoplay]}
               autoplay={{
                 delay: 3000,
                 disableOnInteraction: false,
               }}
-              navigation={true}
-              // eslint-disable-next-line react/jsx-no-duplicate-props
+              className="mySwiper"
             >
               <SwiperSlide>
-                <div className="logo-slide">
-                  <img className="   logo" src={Educare} alt="Scholar" />
+                <div style={{ backgroundColor: "#fff", height: "500px" }}>
+                  <h1>"</h1>
+                  <p>
+                    Partnering with Hexxondiv Tech Hub created a better customer
+                    experience by making lightning payments simple. They take
+                    care of all of the backend so we can focus on creating the
+                    most comfortable shoes in the world.
+                  </p>
+                  <h5>Raymond Durk</h5>
+                  <span>Head of Experience at Atoms</span>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="logo-slide">
-                  <center>
-                    {" "}
-                    <img className="   logo" src={Silverbird} alt="Scholar" />
-                  </center>
+                <div style={{ backgroundColor: "#fff", height: "500px" }}>
+                  {" "}
+                  <h1>"</h1>
+                  <p>
+                    We integrated easily with Hexxondiv Tech Hub's API to accept
+                    bitcoin transactions both on- and off-chain with minimal
+                    fuss.
+                  </p>
+                  <h5>Rusty Nash</h5>
+                  <span>CEO of Gift Off</span>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="logo-slide">
-                  <center>
-                    {" "}
-                    <img className="   logo" src={Powerjet} alt="Scholar" />
-                  </center>
+                <div style={{ backgroundColor: "#fff" }}>
+                  <h1>"</h1>
+                  <p>
+                    Integration with Hexxondiv Tech Hub' was a snap and the
+                    support we received on all aspects was outstanding.
+                  </p>
+                  <h5>Shaun Gilchris</h5>
+                  <span>Founder of BitcoinAverage</span>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="logo-slide">
-                  <center>
-                    {" "}
-                    <img className="   logo" src={Switchapp} alt="Scholar" />
-                  </center>
+                <div style={{ backgroundColor: "#fff", height: "500px" }}>
+                  {" "}
+                  <h1>"</h1>
+                  <p>
+                    Hexxondiv Tech Hub' made it possible to pay for tickets to
+                    the world’s largest bitcoin event, our Bitcoin 2019
+                    conference, in bitcoin. They made it simple for everyone
+                    involved.
+                  </p>
+                  <h5>David Bailey</h5>
+                  <span>CEO of BTC Inc.</span>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="logo-slide">
-                  <h4>slider5</h4>
+                <div style={{ backgroundColor: "#fff", height: "500px" }}>
+                  {" "}
+                  <h1>"</h1>
+                  <p>
+                    Partnering with Hexxondiv Tech Hub created a better customer
+                    experience by making lightning payments simple. They take
+                    care of all of the backend so we can focus on creating the
+                    most comfortable shoes in the world.
+                  </p>
                 </div>
               </SwiperSlide>
             </Swiper>
           </div>
-        </div>
-        <div className="col-md-4 offset-md-1 swipes2">
-          <h1 className="web-view">How we’ve helped other businesses</h1>
-          <Swiper
-            spaceBetween={30}
-            effect={"fade"}
-            navigation={true}
-            // pagination={{
-            //   clickable: true,
-            // }}
-            pagination={pagination}
-            modules={[EffectFade, Pagination, Autoplay]}
-            autoplay={{
-              delay: 3000,
-              disableOnInteraction: false,
-            }}
-            className="mySwiper"
-          >
-            <SwiperSlide>
-              <div style={{ backgroundColor: "#fff", height: "500px" }}>
-                <h1>"</h1>
-                <p>
-                  Partnering with Hexxondiv Tech Hub created a better customer
-                  experience by making lightning payments simple. They take care
-                  of all of the backend so we can focus on creating the most
-                  comfortable shoes in the world.
-                </p>
-                <h5>Raymond Durk</h5>
-                <span>Head of Experience at Atoms</span>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div style={{ backgroundColor: "#fff", height: "500px" }}>
-                {" "}
-                <h1>"</h1>
-                <p>
-                  We integrated easily with Hexxondiv Tech Hub's API to accept
-                  bitcoin transactions both on- and off-chain with minimal fuss.
-                </p>
-                <h5>Rusty Nash</h5>
-                <span>CEO of Gift Off</span>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div style={{ backgroundColor: "#fff" }}>
-                <h1>"</h1>
-                <p>
-                  Integration with Hexxondiv Tech Hub' was a snap and the
-                  support we received on all aspects was outstanding.
-                </p>
-                <h5>Shaun Gilchris</h5>
-                <span>Founder of BitcoinAverage</span>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div style={{ backgroundColor: "#fff", height: "500px" }}>
-                {" "}
-                <h1>"</h1>
-                <p>
-                  Hexxondiv Tech Hub' made it possible to pay for tickets to the
-                  world’s largest bitcoin event, our Bitcoin 2019 conference, in
-                  bitcoin. They made it simple for everyone involved.
-                </p>
-                <h5>David Bailey</h5>
-                <span>CEO of BTC Inc.</span>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div style={{ backgroundColor: "#fff", height: "500px" }}>
-                {" "}
-                <h1>"</h1>
-                <p>
-                  Partnering with Hexxondiv Tech Hub created a better customer
-                  experience by making lightning payments simple. They take care
-                  of all of the backend so we can focus on creating the most
-                  comfortable shoes in the world.
-                </p>
-              </div>
-            </SwiperSlide>
-          </Swiper>
         </div>
       </div>
       <div className="col-md-10 offset-md-1 stats-div">

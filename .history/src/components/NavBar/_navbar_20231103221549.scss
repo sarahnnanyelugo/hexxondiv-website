@@ -6,12 +6,6 @@
 .navigation {
   position: fixed;
   z-index: 1000;
-  .active {
-    color: $red !important;
-    button {
-      color: $red !important;
-    }
-  }
 }
 .tech-nav {
   display: flex;

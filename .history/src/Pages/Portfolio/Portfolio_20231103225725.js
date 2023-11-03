@@ -285,7 +285,7 @@ export const Portfolio = () => {
         </Carousel>
       </div>
       <h1 className="mobile-view">How we’ve helped other businesses</h1>
-      <div className="col-md-12 swipper-container flexy">
+      <div className="col-md-12  flexy">
         <div className="col-md-4 offset-md-1 swipes col-12">
           {" "}
           <div className="col-md-11 ">

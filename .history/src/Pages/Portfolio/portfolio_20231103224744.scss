@@ -34,6 +34,7 @@
 .portfolio-section {
   padding-bottom: 120px;
   padding-top: 80px;
+  margin-bottom: 200px;
 }
 .portfolio-slide {
   background: rgb(255, 255, 255);
@@ -88,14 +89,14 @@
 }
 
 .swipes {
-  @media screen and (max-width: 620px) {
-    padding-left: 0px;
-    overflow: hidden;
-  }
+  padding-left: 50px;
   .swiper {
     width: 100%;
     height: 400px;
     margin-top: 250px;
+    @media screen and (max-width: 620px) {
+      margin-top: 50px;
+    }
   }
   .swiper-slide {
     display: flex;
@@ -108,7 +109,7 @@
   }
 
   .swiper-slide:nth-child(1n) {
-    // background-color: rgb(206, 17, 17);
+    // background-color: rgb(206, 17, 17);gvbg
     background: #fff;
     color: black;
     box-shadow: 0 0 3px 3px rgb(179, 176, 176);
@@ -178,6 +179,8 @@
   }
   .swipper-container {
     margin-bottom: 150px !important;
+    @media screen and (max-width: 620spx) {
+    }
   }
 
   .detail-slide {
@@ -187,7 +190,7 @@
   }
 }
 .swipes2 {
-  // margin-top: 180px;
+  margin-top: 180px;
 
   .swiper {
     width: 100%;

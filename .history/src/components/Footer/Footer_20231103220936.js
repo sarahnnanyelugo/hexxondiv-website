@@ -46,7 +46,6 @@ function Footer(props) {
                   <Link
                     to={"https://bento-deliva.vercel.app/"}
                     className="footer-links"
-                    target="_blank"
                   >
                     Bento Delivaz
                   </Link>
@@ -73,11 +72,7 @@ function Footer(props) {
                 </p>
                 <p>
                   {" "}
-                  <Link
-                    to={"https://uniport-physics.vercel.app/"}
-                    className="footer-links"
-                    target="_blank"
-                  >
+                  <Link to={"/"} className="footer-links">
                     Physics Department (Uniport)
                   </Link>
                 </p>{" "}
@@ -89,7 +84,7 @@ function Footer(props) {
                 <h4>OUR PRODUCTS</h4>
                 <p>
                   {" "}
-                  <Link to={"#"} className="footer-links">
+                  <Link to={"/tech-hub-page"} className="footer-links">
                     Tiny.ng
                   </Link>
                 </p>

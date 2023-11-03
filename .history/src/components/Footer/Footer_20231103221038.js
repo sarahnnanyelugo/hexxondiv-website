@@ -89,7 +89,7 @@ function Footer(props) {
                 <h4>OUR PRODUCTS</h4>
                 <p>
                   {" "}
-                  <Link to={"#"} className="footer-links">
+                  <Link to={"/tech-hub-page"} className="footer-links">
                     Tiny.ng
                   </Link>
                 </p>

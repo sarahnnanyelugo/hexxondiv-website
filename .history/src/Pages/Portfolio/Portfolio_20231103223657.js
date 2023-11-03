@@ -55,6 +55,7 @@ export const Portfolio = () => {
         </center>
       </div>
       <div className="col-md-10 offset-md-1 port-para">
+        {" "}
         <center>
           <h1>OUR PORTFOLIO</h1>
           <p>
@@ -284,7 +285,6 @@ export const Portfolio = () => {
           </Carousel.Item>
         </Carousel>
       </div>
-      <h1 className="mobile-view">How we’ve helped other businesses</h1>
       <div className="col-md-12 swipper-container flexy">
         <div className="col-md-4 offset-md-1 swipes col-12">
           {" "}

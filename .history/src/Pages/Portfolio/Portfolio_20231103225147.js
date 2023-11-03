@@ -55,6 +55,7 @@ export const Portfolio = () => {
         </center>
       </div>
       <div className="col-md-10 offset-md-1 port-para">
+        <Link to={"/tech-hub-page"}>check</Link>
         <center>
           <h1>OUR PORTFOLIO</h1>
           <p>
