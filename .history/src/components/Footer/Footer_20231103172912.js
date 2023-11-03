@@ -10,7 +10,7 @@ function Footer(props) {
       <footer>
         <div className="col-md-12 footer-container">
           <center>
-            <div className="col-md-4 col-5">
+            <div className="col-md-4 col-4">
               {" "}
               <img
                 className="col-md-8 footer-logo"
