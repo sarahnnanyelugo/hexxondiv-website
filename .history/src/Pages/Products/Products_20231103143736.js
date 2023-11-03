@@ -75,13 +75,7 @@ function Products() {
               <div className="col-md-3">
                 {" "}
                 <center>
-                  <a
-                    href="https://powerjet.ng/"
-                    className="product3-heading mt6 mobile-view"
-                    target="_blank"
-                  >
-                    Powerjet.ng
-                  </a>
+                  {" "}
                   <img
                     className="img-adj"
                     src={PJM}

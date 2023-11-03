@@ -74,21 +74,12 @@ function Products() {
             <div className="flexy col-md-8">
               <div className="col-md-3">
                 {" "}
-                <center>
-                  <a
-                    href="https://powerjet.ng/"
-                    className="product3-heading mt6 mobile-view"
-                    target="_blank"
-                  >
-                    Powerjet.ng
-                  </a>
-                  <img
-                    className="img-adj"
-                    src={PJM}
-                    alt="Scholar"
-                    width="100%"
-                  />{" "}
-                </center>
+                <img
+                  className="img-adj"
+                  src={PJM}
+                  alt="Scholar"
+                  width="100%"
+                />{" "}
               </div>{" "}
               <div className="col-md-9">
                 {" "}
@@ -98,7 +89,7 @@ function Products() {
             <div className="col-md-3  offset-md-1">
               <a
                 href="https://powerjet.ng/"
-                className="product3-heading mt6 web-view"
+                className="product3-heading mt6"
                 target="_blank"
               >
                 Powerjet.ng
@@ -140,14 +131,12 @@ function Products() {
             <div className="flexy col-md-8 offset-md-1">
               <div className="col-md-3">
                 {" "}
-                <center>
-                  <img
-                    className="img-adj"
-                    src={Phone}
-                    alt="Scholar"
-                    width="100%"
-                  />{" "}
-                </center>
+                <img
+                  className="img-adj"
+                  src={Phone}
+                  alt="Scholar"
+                  width="100%"
+                />{" "}
               </div>{" "}
               <div className="col-md-9">
                 {" "}

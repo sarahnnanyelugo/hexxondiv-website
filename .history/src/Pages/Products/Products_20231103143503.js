@@ -28,7 +28,7 @@ function Products() {
         </center>
         <div className="col-md-10 offset-md-1 mt">
           <h1 style={{ fontSize: "50px" }}>Some of Our Inspirations</h1>
-          <div className="flexy mt">
+          <div className="flexy mtt">
             <div className="col-md-3">
               <Link className="product1-heading mt6">Tiny.ng</Link>
               <br />
@@ -51,15 +51,7 @@ function Products() {
             <div className="flexy col-md-8 offset-md-1">
               <div className="col-md-3">
                 {" "}
-                <center>
-                  {" "}
-                  <img
-                    className="img-adj"
-                    src={Phone}
-                    alt="Scholar"
-                    width="100%"
-                  />{" "}
-                </center>
+                <img className="" src={Phone} alt="Scholar" width="100%" />{" "}
               </div>{" "}
               <div className="col-md-9">
                 {" "}
@@ -74,21 +66,7 @@ function Products() {
             <div className="flexy col-md-8">
               <div className="col-md-3">
                 {" "}
-                <center>
-                  <a
-                    href="https://powerjet.ng/"
-                    className="product3-heading mt6 mobile-view"
-                    target="_blank"
-                  >
-                    Powerjet.ng
-                  </a>
-                  <img
-                    className="img-adj"
-                    src={PJM}
-                    alt="Scholar"
-                    width="100%"
-                  />{" "}
-                </center>
+                <img className="" src={PJM} alt="Scholar" width="100%" />{" "}
               </div>{" "}
               <div className="col-md-9">
                 {" "}
@@ -98,7 +76,7 @@ function Products() {
             <div className="col-md-3  offset-md-1">
               <a
                 href="https://powerjet.ng/"
-                className="product3-heading mt6 web-view"
+                className="product3-heading mt6"
                 target="_blank"
               >
                 Powerjet.ng
@@ -140,14 +118,7 @@ function Products() {
             <div className="flexy col-md-8 offset-md-1">
               <div className="col-md-3">
                 {" "}
-                <center>
-                  <img
-                    className="img-adj"
-                    src={Phone}
-                    alt="Scholar"
-                    width="100%"
-                  />{" "}
-                </center>
+                <img className="" src={Phone} alt="Scholar" width="100%" />{" "}
               </div>{" "}
               <div className="col-md-9">
                 {" "}

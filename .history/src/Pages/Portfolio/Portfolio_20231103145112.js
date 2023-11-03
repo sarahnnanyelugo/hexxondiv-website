@@ -27,7 +27,7 @@ export const Portfolio = () => {
           </div>
         </center>
       </div>
-      <div className="col-md-10 offset-md-1 port-para">
+      <div className="col-md-10 offset-md-1 m">
         {" "}
         <center>
           <h1>OUR PORTFOLIO</h1>
