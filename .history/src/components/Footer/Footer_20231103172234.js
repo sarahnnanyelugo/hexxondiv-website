@@ -33,6 +33,12 @@ function Footer(props) {
                 <h4>POPULAR WORKS</h4>
                 <p>
                   {" "}
+                  <Link to={"/"} className="footer-links">
+                    Bento Delivaz
+                  </Link>
+                </p>
+                <p>
+                  {" "}
                   <Link
                     to={"https://sfsfund.com/"}
                     className="footer-links"
@@ -41,12 +47,6 @@ function Footer(props) {
                     SFS Fund
                   </Link>
                 </p>{" "}
-                <p>
-                  {" "}
-                  <Link to={"/"} className="footer-links">
-                    Bento Delivaz
-                  </Link>
-                </p>
                 <p>
                   {" "}
                   <Link
@@ -59,6 +59,12 @@ function Footer(props) {
                 </p>{" "}
                 <p>
                   {" "}
+                  <Link to={"/"} className="footer-links">
+                    Physics Department (Uniport)
+                  </Link>
+                </p>{" "}
+                <p>
+                  {" "}
                   <Link
                     to={"https://www.magyteklimited.com/"}
                     className="footer-links"
@@ -67,12 +73,6 @@ function Footer(props) {
                     Magytek Limited
                   </Link>
                 </p>
-                <p>
-                  {" "}
-                  <Link to={"/"} className="footer-links">
-                    Physics Department (Uniport)
-                  </Link>
-                </p>{" "}
               </div>{" "}
             </div>
             <div className="col-md-6 flexy flexyM">

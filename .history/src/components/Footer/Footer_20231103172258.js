@@ -33,6 +33,12 @@ function Footer(props) {
                 <h4>POPULAR WORKS</h4>
                 <p>
                   {" "}
+                  <Link to={"/"} className="footer-links">
+                    Bento Delivaz
+                  </Link>
+                </p>
+                <p>
+                  {" "}
                   <Link
                     to={"https://sfsfund.com/"}
                     className="footer-links"
@@ -41,12 +47,6 @@ function Footer(props) {
                     SFS Fund
                   </Link>
                 </p>{" "}
-                <p>
-                  {" "}
-                  <Link to={"/"} className="footer-links">
-                    Bento Delivaz
-                  </Link>
-                </p>
                 <p>
                   {" "}
                   <Link
