@@ -112,7 +112,7 @@ function Home() {
                 and ensure adequate reliable process for this need. You can send
                 us a mail at{""}
                 <a href="#" className="linked">
-                  {""} powerjetng@gmail.com
+                  powerjetng@gmail.com
                 </a>
               </p>
             </div>
