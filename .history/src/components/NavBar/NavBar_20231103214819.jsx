@@ -148,7 +148,7 @@ function NavBar() {
         <div className="phone ">
           <div className="menu">
             <div class="list-group options ">
-              <NavLink to={"/"} className="menu-navs" activeclassname="active">
+              <NavLink to={"/"} className="menu-navs">
                 {" "}
                 <button
                   type="button"
@@ -158,6 +158,7 @@ function NavBar() {
                       .querySelector(".phone")
                       .classList.toggle("active3");
                   }}
+                  activeclassname="active"
                 >
                   Home
                 </button>

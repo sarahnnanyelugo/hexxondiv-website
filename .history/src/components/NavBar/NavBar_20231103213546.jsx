@@ -52,7 +52,7 @@ function NavBar() {
               <NavLink
                 className="tech-links cool-link"
                 to={"/"}
-                activeclassname="active"
+                activeClassName="active-nav"
               >
                 Home
               </NavLink>
@@ -105,39 +105,23 @@ function NavBar() {
               </a>
             </li>{" "} */}
             <li className="list-inline-item">
-              <NavLink
-                className="tech-links cool-link"
-                to={"/about"}
-                activeclassname="active"
-              >
+              <NavLink className="tech-links cool-link" to={"/about"}>
                 About Us
               </NavLink>
             </li>
             <li className="list-inline-item">
-              <NavLink
-                className="tech-links cool-link"
-                to={"/products"}
-                activeclassname="active"
-              >
+              <NavLink className="tech-links cool-link" to={"/products"}>
                 Products
               </NavLink>
             </li>
 
             <li className="list-inline-item">
-              <NavLink
-                className="tech-links cool-link"
-                to={"/portfolio"}
-                activeclassname="active"
-              >
+              <NavLink className="tech-links cool-link" to={"/portfolio"}>
                 Portfolio
               </NavLink>
             </li>
             <li className="list-inline-item">
-              <NavLink
-                className="tech-links cool-link"
-                to={"/contact"}
-                activeclassname="active"
-              >
+              <NavLink className="tech-links cool-link" to={"/contact"}>
                 Contact
               </NavLink>
             </li>
@@ -148,7 +132,7 @@ function NavBar() {
         <div className="phone ">
           <div className="menu">
             <div class="list-group options ">
-              <NavLink to={"/"} className="menu-navs" activeclassname="active">
+              <NavLink to={"/"} className="menu-navs">
                 {" "}
                 <button
                   type="button"
@@ -162,11 +146,7 @@ function NavBar() {
                   Home
                 </button>
               </NavLink>{" "}
-              <NavLink
-                to={"/about"}
-                className="menu-navs"
-                activeclassname="active"
-              >
+              <NavLink to={"/about"} className="menu-navs">
                 {" "}
                 <button
                   type="button"
@@ -180,11 +160,7 @@ function NavBar() {
                   About us
                 </button>
               </NavLink>{" "}
-              <NavLink
-                to={"/products"}
-                className="menu-navs"
-                activeclassname="active"
-              >
+              <NavLink to={"/products"} className="menu-navs">
                 {" "}
                 <button
                   type="button"
@@ -198,11 +174,7 @@ function NavBar() {
                   Products
                 </button>
               </NavLink>{" "}
-              <NavLink
-                to={"/portfolio"}
-                className="menu-navs"
-                activeclassname="active"
-              >
+              <NavLink to={"/portfolio"} className="menu-navs">
                 {" "}
                 <button
                   type="button"
@@ -216,11 +188,7 @@ function NavBar() {
                   Portfolio
                 </button>
               </NavLink>{" "}
-              <NavLink
-                to={"/contact"}
-                className="menu-navs"
-                activeclassname="active"
-              >
+              <NavLink to={"/contact"} className="menu-navs">
                 {" "}
                 <button
                   type="button"

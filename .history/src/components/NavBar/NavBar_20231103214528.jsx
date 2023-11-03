@@ -148,7 +148,7 @@ function NavBar() {
         <div className="phone ">
           <div className="menu">
             <div class="list-group options ">
-              <NavLink to={"/"} className="menu-navs" activeclassname="active">
+              <NavLink to={"/"} className="menu-navs" activeclassname="active2">
                 {" "}
                 <button
                   type="button"
@@ -165,7 +165,7 @@ function NavBar() {
               <NavLink
                 to={"/about"}
                 className="menu-navs"
-                activeclassname="active"
+                activeclassname="active2"
               >
                 {" "}
                 <button
@@ -183,7 +183,7 @@ function NavBar() {
               <NavLink
                 to={"/products"}
                 className="menu-navs"
-                activeclassname="active"
+                activeclassname="active2"
               >
                 {" "}
                 <button
@@ -201,7 +201,7 @@ function NavBar() {
               <NavLink
                 to={"/portfolio"}
                 className="menu-navs"
-                activeclassname="active"
+                activeclassname="active2"
               >
                 {" "}
                 <button
@@ -219,7 +219,7 @@ function NavBar() {
               <NavLink
                 to={"/contact"}
                 className="menu-navs"
-                activeclassname="active"
+                activeclassname="active2"
               >
                 {" "}
                 <button
