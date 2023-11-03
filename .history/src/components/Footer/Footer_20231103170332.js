@@ -50,7 +50,7 @@ function Footer(props) {
                     className="footer-links"
                     target="_blank"
                   >
-                    VinPublishing
+                    Propellers Journal
                   </Link>
                 </p>{" "}
                 <p>

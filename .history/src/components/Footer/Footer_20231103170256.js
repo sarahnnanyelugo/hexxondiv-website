@@ -50,7 +50,7 @@ function Footer(props) {
                     className="footer-links"
                     target="_blank"
                   >
-                    VinPublishing
+                    Propellers Journal
                   </Link>
                 </p>{" "}
                 <p>
@@ -61,16 +61,6 @@ function Footer(props) {
                     target="_blank"
                   >
                     SFS Fund
-                  </Link>
-                </p>{" "}
-                <p>
-                  {" "}
-                  <Link
-                    to={"https://www.magyteklimited.com/"}
-                    className="footer-links"
-                    target="_blank"
-                  >
-                    Magytek Limited
                   </Link>
                 </p>
               </div>{" "}

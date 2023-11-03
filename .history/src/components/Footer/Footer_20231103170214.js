@@ -46,31 +46,11 @@ function Footer(props) {
                 <p>
                   {" "}
                   <Link
-                    to={"https://vinpublishing.com/"}
+                    to={"/https://vinpublishing.com/"}
                     className="footer-links"
                     target="_blank"
                   >
-                    VinPublishing
-                  </Link>
-                </p>{" "}
-                <p>
-                  {" "}
-                  <Link
-                    to={"https://sfsfund.com/"}
-                    className="footer-links"
-                    target="_blank"
-                  >
-                    SFS Fund
-                  </Link>
-                </p>{" "}
-                <p>
-                  {" "}
-                  <Link
-                    to={"https://www.magyteklimited.com/"}
-                    className="footer-links"
-                    target="_blank"
-                  >
-                    Magytek Limited
+                    Propellers Journal
                   </Link>
                 </p>
               </div>{" "}
