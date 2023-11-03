@@ -115,7 +115,7 @@ function Products() {
                 and ensure adequate reliable process for this need. You can send
                 us a mail at{""}
                 <a href="#" className="link" target="_blank">
-                  {""} powerjetng@gmail.com
+                  powerjetng@gmail.com
                 </a>
               </p>
             </div>

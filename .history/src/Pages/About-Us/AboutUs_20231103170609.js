@@ -7,7 +7,6 @@ import Silverbird from "../../assets/images/silverbird.png";
 import Educare from "../../assets/images/educare.png";
 import Powerjet from "../../assets/images/powerjet.png";
 import About from "../../assets/images/about.webp";
-import Img from "../../assets/images/techy.webp";
 import Apart from "../../assets/images/apart.jpg";
 import { Link } from "react-router-dom";
 import Logo from "../../assets/images/tech-hub.png";
@@ -88,9 +87,9 @@ function AboutUs() {
           </div>
         </div>
         <div className="flexy mt">
-          <div className="col-md-6 mt5">
+          <div className="col-md-6">
             <h1 className="mobile-view">What Sets Us Apart</h1>
-            <img className="" src={Img} alt="Scholar" width="100%" />{" "}
+            <img className="" src={Apart} alt="Scholar" width="100%" />{" "}
           </div>
           <div className="col-md-6" style={{ padding: "10px" }}>
             <h1 className="web-view">What Sets Us Apart</h1>

@@ -114,8 +114,8 @@ function Products() {
                 the availability of the comfort in electricity bill/unit payment
                 and ensure adequate reliable process for this need. You can send
                 us a mail at{""}
-                <a href="#" className="link" target="_blank">
-                  {""} powerjetng@gmail.com
+                <a href="#" className="link">
+                  powerjetng@gmail.com
                 </a>
               </p>
             </div>

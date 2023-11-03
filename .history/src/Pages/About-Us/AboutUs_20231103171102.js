@@ -88,7 +88,7 @@ function AboutUs() {
           </div>
         </div>
         <div className="flexy mt">
-          <div className="col-md-6 mt5">
+          <div className="col-md-6">
             <h1 className="mobile-view">What Sets Us Apart</h1>
             <img className="" src={Img} alt="Scholar" width="100%" />{" "}
           </div>
