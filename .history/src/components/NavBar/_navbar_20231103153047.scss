@@ -132,21 +132,7 @@
 }
 
 .mobile-navigation {
-  @media screen and (min-width: 620px) {
-    display: none;
-  }
-  a {
-    font-family: recoAltSemiBold;
-    text-decoration: none;
-  }
   height: 5vh;
-  .menu-navs {
-    button {
-      margin-top: 10px;
-      margin-bottom: 10px;
-      background: #f2f2f2 !important;
-    }
-  }
   .phone {
     background-color: transparent;
 
@@ -155,7 +141,14 @@
 
     width: 100%;
   }
+  .menu-links {
+    background: rgb(230, 239, 246) !important;
+    font-size: 17px;
+  }
 
+  .spaze {
+    margin-bottom: 10 !important;
+  }
   .menu {
     align-items: center;
     background-color: transparent !important;
@@ -177,7 +170,7 @@
     z-index: 51;
   }
   .active3 .menu {
-    background-color: #3099da !important;
+    background-color: #fff !important;
     clip-path: polygon(101% -1%, 101% 101%, -1% 101%, -1% -1%);
     width: 100% !important;
     height: 100%;

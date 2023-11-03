@@ -142,7 +142,7 @@ function NavBar() {
                   Home
                 </button>
               </NavLink>{" "}
-              <NavLink to={"/about"} className="menu-navs">
+              <NavLink to={"/course-page"} className="menu-navs">
                 {" "}
                 <button
                   type="button"
@@ -156,7 +156,7 @@ function NavBar() {
                   About us
                 </button>
               </NavLink>{" "}
-              <NavLink to={"/products"} className="menu-navs">
+              <NavLink to={"/news-page"} className="menu-navs">
                 {" "}
                 <button
                   type="button"
@@ -170,7 +170,7 @@ function NavBar() {
                   Products
                 </button>
               </NavLink>{" "}
-              <NavLink to={"/portfolio"} className="menu-navs">
+              <NavLink to={"/alumni"} className="menu-navs">
                 {" "}
                 <button
                   type="button"

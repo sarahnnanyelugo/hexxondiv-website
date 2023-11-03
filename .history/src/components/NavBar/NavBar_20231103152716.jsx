@@ -142,7 +142,7 @@ function NavBar() {
                   Home
                 </button>
               </NavLink>{" "}
-              <NavLink to={"/about"} className="menu-navs">
+              <NavLink to={"/course-page"} className="menu-navs">
                 {" "}
                 <button
                   type="button"
@@ -156,7 +156,7 @@ function NavBar() {
                   About us
                 </button>
               </NavLink>{" "}
-              <NavLink to={"/products"} className="menu-navs">
+              <NavLink to={"/news-page"} className="menu-navs">
                 {" "}
                 <button
                   type="button"
@@ -167,10 +167,10 @@ function NavBar() {
                       .classList.toggle("active3");
                   }}
                 >
-                  Products
+                  News
                 </button>
               </NavLink>{" "}
-              <NavLink to={"/portfolio"} className="menu-navs">
+              <NavLink to={"/alumni"} className="menu-navs">
                 {" "}
                 <button
                   type="button"
@@ -181,21 +181,7 @@ function NavBar() {
                       .classList.toggle("active3");
                   }}
                 >
-                  Portfolio
-                </button>
-              </NavLink>{" "}
-              <NavLink to={"/contact"} className="menu-navs">
-                {" "}
-                <button
-                  type="button"
-                  class="list-group-item list-group-item-action"
-                  onClick={() => {
-                    document
-                      .querySelector(".phone")
-                      .classList.toggle("active3");
-                  }}
-                >
-                  Contact Us
+                  Alumni
                 </button>
               </NavLink>{" "}
             </div>

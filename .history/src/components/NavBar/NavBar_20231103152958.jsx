@@ -142,7 +142,7 @@ function NavBar() {
                   Home
                 </button>
               </NavLink>{" "}
-              <NavLink to={"/about"} className="menu-navs">
+              <NavLink to={"/about-us"} className="menu-navs">
                 {" "}
                 <button
                   type="button"

@@ -140,13 +140,6 @@
     text-decoration: none;
   }
   height: 5vh;
-  .menu-navs {
-    button {
-      margin-top: 10px;
-      margin-bottom: 10px;
-      background: #f2f2f2 !important;
-    }
-  }
   .phone {
     background-color: transparent;
 
@@ -177,7 +170,7 @@
     z-index: 51;
   }
   .active3 .menu {
-    background-color: #3099da !important;
+    background-color: red !important;
     clip-path: polygon(101% -1%, 101% 101%, -1% 101%, -1% -1%);
     width: 100% !important;
     height: 100%;
