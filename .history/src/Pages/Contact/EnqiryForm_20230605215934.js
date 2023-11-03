@@ -31,7 +31,7 @@ export const EnqiryForm = () => {
           <input type="text" placeholder="Subject Title" />
           <input type="tel" placeholder="Phone Num" />
           <textarea placeholder="Enter your message" className="form-control" />
-          <div className="offset-md-9 col-md-2">
+          <div className="offset-md-10 col-md-2">
             <button className="app-btn mt2">Submit</button>
           </div>
         </div>

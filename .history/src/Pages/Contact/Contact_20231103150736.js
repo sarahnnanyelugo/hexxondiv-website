@@ -14,7 +14,7 @@ export default function Contact() {
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
-        <div className="offset-md-8 col-md-3 form-div">
+        <div className="offset-md-8 col-md-4 form-div">
           <EnqiryForm />
         </div>
         <Footer bg="#092540" logo={Logo} />

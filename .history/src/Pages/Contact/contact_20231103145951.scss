@@ -36,7 +36,7 @@
     position: relative;
     width: 100%;
     @media screen and (max-width: 620px) {
-      // margin-top: 100%;
+      margin-top: 100%;
     }
     img {
       //   border: solid 1px red;
@@ -55,8 +55,7 @@
       height: 100%;
       @media screen and (max-width: 620px) {
         height: fit-content;
-        top: 80%;
-        margin-bottom: 60px;
+        top: 100%;
       }
       h6 {
         color: #fff;
@@ -65,10 +64,6 @@
   }
   .form-body {
     padding: 30px;
-
-    @media screen and (max-width: 620px) {
-      margin-top: 50px;
-    }
   }
 }
 .enquiry-form {
@@ -81,10 +76,5 @@
     @include division-button;
     background: $blue2;
     border: none;
-  }
-}
-.form-div {
-  @media screen and (max-width: 620px) {
-    margin-top: 100px;
   }
 }
