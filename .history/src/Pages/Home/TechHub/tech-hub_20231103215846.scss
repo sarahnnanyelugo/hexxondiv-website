@@ -86,5 +86,26 @@
     box-shadow: 1px 19px 17px 10px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: 1px 19px 17px 10px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 1px 19px 17px 10px rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+  }
+}
+
+.accordion-button::after {
+  background-image: url("../../../assets/images/add-circle2.svg") !important;
+  content: "" !important;
+  background-position: center;
+  background-size: 100%;
+  height: 30px !important;
+  width: 30px !important;
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: url("../../../assets/images/blue-minus.svg") !important;
+
+  content: "" !important;
+}
+.dashboard-display {
+  img {
+    width: 100%;
+    height: 100%;
   }
 }

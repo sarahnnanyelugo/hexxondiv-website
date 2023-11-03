@@ -6,9 +6,9 @@
   // margin-top: 150px;
   .accordion-body {
     background: #fff;
-    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 1px 19px 17px 10px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 1px 19px 17px 10px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 19px 17px 10px rgba(0, 0, 0, 0.75);
     margin-bottom: 30px;
     margin-top: 30px !important;
     padding-top: 0 !important;
@@ -27,9 +27,9 @@
     border-top-right-radius: 30px !important;
     border-top-left-radius: 30px !important;
     padding-bottom: 0 !important;
-    box-shadow: 0px 38px 21px 9px rgba(211, 212, 215, 0.75) !important;
-    -webkit-box-shadow: 0px 38px 21px 9px rgba(211, 212, 215, 0.75) !important;
-    -moz-box-shadow: 0px 38px 21px 9px rgba(211, 212, 215, 0.75) !important;
+    box-shadow: 1px 19px 17px 10px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 1px 19px 17px 10px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 19px 17px 10px rgba(0, 0, 0, 0.75);
   }
   .accordion-item {
     border: none !important;
@@ -83,8 +83,29 @@
     // border-radius: 0 !important;
   }
   .tech-img {
-    box-shadow: 0px 38px 21px 9px rgba(211, 212, 215, 0.75);
-    -webkit-box-shadow: 0px 38px 21px 9px rgba(211, 212, 215, 0.75);
-    -moz-box-shadow: 0px 38px 21px 9px rgba(211, 212, 215, 0.75);
+    box-shadow: 1px 19px 17px 10px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 1px 19px 17px 10px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 19px 17px 10px rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+  }
+}
+
+.accordion-button::after {
+  background-image: url("../../../assets/images/add-circle2.svg") !important;
+  content: "" !important;
+  background-position: center;
+  background-size: 100%;
+  height: 30px !important;
+  width: 30px !important;
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: url("../../../assets/images/blue-minus.svg") !important;
+
+  content: "" !important;
+}
+.dashboard-display {
+  img {
+    width: 100%;
+    height: 150%;
   }
 }

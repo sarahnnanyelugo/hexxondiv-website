@@ -95,17 +95,11 @@
   content: "" !important;
   background-position: center;
   background-size: 100%;
-  height: 30px !important;
-  width: 30px !important;
+  height: 60px;
+  width: 60px;
 }
 .accordion-button:not(.collapsed)::after {
   background-image: url("../../../assets/images/blue-minus.svg") !important;
 
   content: "" !important;
-}
-.dashboard-display {
-  img {
-    width: 100%;
-    height: 100%;
-  }
 }
