@@ -116,22 +116,16 @@ export const Portfolio = () => {
               <div className="col-md-5 offset-md-1">
                 <h4>MAGYTEK LIMITED</h4>
                 <p>
-                  At Hexxondiv TechHub, we take immense pride in our journey
-                  with Magytek Limited, a visionary leader in water treatment
-                  solutions. Together, we embarked on a transformative mission
-                  to bring clean and pure water to the forefront of Nigeria's
-                  landscape. With a wealth of experience in reverse osmosis
-                  systems, Magytek Limited emerged as a testament to our
-                  collaborative spirit and unwavering commitment to excellence.
-                  Through tireless dedication and cutting-edge technology, we
-                  crafted a website that reflects Magytek Limited's unwavering
-                  commitment to innovation, quality, and sustainability. As you
-                  explore the Magytek Limited website in our portfolio, you'll
-                  witness a harmonious blend of aesthetics and functionality.
-                  Our collaboration has not only elevated their online presence
-                  but has also empowered them to reach a wider audience,
-                  spreading the message of water purification and its vital role
-                  in safeguarding health and wellbeing.
+                  Welcome to the heart of innovation, where possibilities become
+                  realities and where Hexxondiv Tech Hub brings dreams to life
+                  through code. Our journey began with a fervent belief in the
+                  transformative power of technology, and today, we stand at the
+                  forefront of a digital revolution. Step into our world, where
+                  passion meets purpose, and witness how we've been reshaping
+                  industries and improving lives, one line of code at a time.
+                  Explore our portfolio, and discover the future we're crafting
+                  – a future defined by innovation, excellence, and the
+                  relentless pursuit of a better digital world
                 </p>
                 <Link to={"https://www.magyteklimited.com/"} target="_blank">
                   Visit Site
@@ -176,19 +170,16 @@ export const Portfolio = () => {
               <div className="col-md-5 offset-md-1">
                 <h4>SFS FUND</h4>
                 <p>
-                  Welcome to the world of seamless investing, where financial
-                  innovation meets user-friendly technology. Introducing
-                  sfsfund.com, a shining gem in our portfolio at Hexxondiv
-                  TechHub. This cutting-edge platform was meticulously crafted
-                  to empower investors to participate effortlessly in the SFS
-                  Fixed Income Fund. With no manual hurdles or human
-                  intervention required, it transforms the investment journey
-                  into a hassle-free experience. Since its inception,
-                  sfsfund.com has consistently delivered on its promise, paying
-                  out dividends to unit holders on a quarterly basis. We take
-                  immense pride in bringing this vision to life for our client,
-                  ensuring that their commitment to excellence is matched by our
-                  dedication to creating exceptional digital solutions.
+                  Welcome to the heart of innovation, where possibilities become
+                  realities and where Hexxondiv Tech Hub brings dreams to life
+                  through code. Our journey began with a fervent belief in the
+                  transformative power of technology, and today, we stand at the
+                  forefront of a digital revolution. Step into our world, where
+                  passion meets purpose, and witness how we've been reshaping
+                  industries and improving lives, one line of code at a time.
+                  Explore our portfolio, and discover the future we're crafting
+                  – a future defined by innovation, excellence, and the
+                  relentless pursuit of a better digital world
                 </p>
                 <Link to={"https://sfsfund.com/"} target="_blank">
                   Visit Site
