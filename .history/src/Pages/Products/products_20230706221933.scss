@@ -1,0 +1,44 @@
+@import "../../variables";
+@import "../../shared-styles";
+.product-container {
+  position: relative;
+
+  img {
+    height: 800px;
+  }
+  .product-overlay {
+    position: absolute;
+    // transform: translate(0%, -50%);
+    top: 40%;
+    h1,
+    h4 {
+      color: #fff;
+    }
+    h1 {
+      font-size: 90px;
+      color: #2f99da;
+      text-shadow: 5px 5px 10px black;
+    }
+    h4 {
+      font-weight: bold;
+    }
+  }
+}
+.product1-heading {
+  color: $red;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: recoAltSemiBold;
+}
+.product2-heading {
+  color: $blue;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: recoAltSemiBold;
+}
+.product3-heading {
+  color: #f28822;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: recoAltSemiBold;
+}

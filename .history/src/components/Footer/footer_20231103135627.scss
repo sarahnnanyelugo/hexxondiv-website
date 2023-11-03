@@ -1,0 +1,44 @@
+@import "../../variables";
+@import "../../shared-styles";
+.footer-container {
+  margin-top: 100px;
+  padding-bottom: 50px;
+  padding-top: 80px;
+  color: #fff;
+  background: #000;
+  h4 {
+    color: #fff;
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+  .footer-links {
+    text-decoration: none;
+    color: #fff;
+    &:hover {
+      color: $red;
+    }
+    @media screen and (max-width: 620px) {
+      font-size: 14px;
+    }
+  }
+  ul li i {
+    margin-right: 20px;
+    font-size: 30px;
+    &:hover {
+      color: $red;
+    }
+  }
+  small {
+    margin-bottom: 10px !important;
+  }
+}
+.footer-logo {
+  //   background: #fff;
+}
+.services {
+  p {
+    @media screen and (max-width: 620px) {
+      font-size: 14px;
+    }
+  }
+}

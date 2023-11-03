@@ -1,0 +1,23 @@
+.product-container2 {
+  position: relative;
+
+  img {
+    height: 800px;
+  }
+  .product-overlay2 {
+    position: absolute;
+    // transform: translate(0%, -50%);
+    top: 40%;
+    h1,
+    h4 {
+      color: #fff;
+    }
+    h1 {
+      color: #fff;
+      text-shadow: 5px 5px 10px black;
+    }
+    h4 {
+      font-weight: bold;
+    }
+  }
+}
