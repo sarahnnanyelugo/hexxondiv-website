@@ -33,7 +33,7 @@
 }
 .portfolio-section {
   padding-bottom: 120px;
-  padding-top: 80px;
+  padding-top: 120px;
 }
 .portfolio-slide {
   background: rgb(255, 255, 255);
@@ -60,14 +60,14 @@
   }
 }
 .carousel-control-next-icon {
-  background-image: url("../../assets/images/next.png");
+  background-image: url("../../assets/images/right2.png");
   margin-left: 150px !important;
   position: relative !important;
   margin-top: -60px !important;
-  border-radius: 100%;
+  background: red;
 }
 .carousel-control-prev-icon {
-  background-image: url("../../assets/images/prev.png");
+  background-image: url("../../assets/images/left2.png");
   margin-right: 150px !important;
   margin-top: -60px !important;
 }
