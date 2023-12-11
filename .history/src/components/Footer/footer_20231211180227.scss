@@ -6,6 +6,9 @@
   padding-top: 80px;
   color: #fff;
   background: #000;
+  @media screen and (max-width: 620px) {
+    padding-left: 30px;
+  }
   h4 {
     color: #fff;
     margin-top: 50px;
@@ -16,6 +19,9 @@
     color: #fff;
     &:hover {
       color: $red;
+    }
+    @media screen and (max-width: 620px) {
+      font-size: 14px;
     }
   }
   ul li i {
@@ -31,4 +37,12 @@
 }
 .footer-logo {
   //   background: #fff;
+}
+.services {
+  color: #fff;
+  p {
+    @media screen and (max-width: 620px) {
+      font-size: 15px;
+    }
+  }
 }

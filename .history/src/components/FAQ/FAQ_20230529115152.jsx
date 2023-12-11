@@ -34,7 +34,7 @@ function FAQ() {
                 Will we be working directly with the Specialists?
               </label>
               <div class="tab-content">
-                Hexxoniv TechHub provides self-managed specialists, so you work
+                Hexxoniv Tech Hub provides self-managed specialists, so you work
                 directly with a team of technicians. With bigger teams, you
                 usually are going to communicate with the team leader.
               </div>
@@ -45,8 +45,8 @@ function FAQ() {
                 How can I be sure my project is kept confidential?
               </label>
               <div class="tab-content">
-                All members of the Hexxondiv TechHub are under a strict NDA, and
-                by extension to any client's project.
+                All members of the Chimera Prime are under a strict NDA, and by
+                extension to any client's project.
               </div>
             </div>
             <div class="tab">

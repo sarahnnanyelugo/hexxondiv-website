@@ -10,7 +10,7 @@ function Footer(props) {
       <footer>
         <div className="col-md-12 footer-container">
           <center>
-            <div className="col-md-4 col-4">
+            <div className="col-md-4 col-5">
               {" "}
               <img
                 className="col-md-8 footer-logo"
@@ -20,7 +20,7 @@ function Footer(props) {
               />{" "}
             </div>
           </center>
-          <div className="col-md-10 offset-md-1 flexy">
+          <div className="col-md-10 offset-md-1 flexy mt7">
             <div className="col-md-6 flexy flexyM">
               {" "}
               <div className="col-md-6 services">
@@ -33,31 +33,63 @@ function Footer(props) {
                 <h4>POPULAR WORKS</h4>
                 <p>
                   {" "}
-                  <Link to={"/tech-hub-page"} className="footer-links">
+                  <Link
+                    to={"https://sfsfund.com/"}
+                    className="footer-links"
+                    target="_blank"
+                  >
+                    SFS Fund
+                  </Link>
+                </p>{" "}
+                <p>
+                  {" "}
+                  <Link
+                    to={"https://bento-deliva.vercel.app/"}
+                    className="footer-links"
+                    target="_blank"
+                  >
                     Bento Delivaz
                   </Link>
                 </p>
                 <p>
                   {" "}
-                  <Link to={"/tech-hub-page"} className="footer-links">
-                    Physics Department (Uniport)
+                  <Link
+                    to={"https://vinpublishing.com/"}
+                    className="footer-links"
+                    target="_blank"
+                  >
+                    VinPublishing
                   </Link>
                 </p>{" "}
                 <p>
                   {" "}
-                  <Link to={"/tech-hub-page"} className="footer-links">
-                    Propellers Journal
+                  <Link
+                    to={"https://www.magyteklimited.com/"}
+                    className="footer-links"
+                    target="_blank"
+                  >
+                    Magytek Limited
                   </Link>
                 </p>
+                <p>
+                  {" "}
+                  <Link
+                    to={"https://uniport-physics.vercel.app/"}
+                    className="footer-links"
+                    target="_blank"
+                  >
+                    Physics Department (Uniport)
+                  </Link>
+                </p>{" "}
               </div>{" "}
             </div>
             <div className="col-md-6 flexy flexyM">
               {" "}
-              <div className="col-md-6 ">
-                <h5>OUR PRODUCTS</h5>
+              <div className="col-md-6 col-7">
+                <h4>OUR PRODUCTS</h4>
                 <p>
                   {" "}
-                  <Link to={"/tech-hub-page"} className="footer-links">
+                  <Link to={"#"} className="footer-links">
                     Tiny.ng
                   </Link>
                 </p>
@@ -74,7 +106,7 @@ function Footer(props) {
                   </Link>
                 </p>
               </div>
-              <div className="col-md-6 ">
+              <div className="col-md-6 col-5 ">
                 <h4>CONTACT US</h4>
                 <p>
                   {" "}
@@ -115,7 +147,7 @@ function Footer(props) {
             className="flexy col-md-10 offset-md-1"
             style={{ borderTop: "solid 1px grey", paddingTop: "30px" }}
           >
-            <p style={{ flexGrow: 1 }}>
+            <p style={{ flexGrow: 1, color: "#fff" }}>
               {" "}
               @ hexxondiv global services || All rights reserved
             </p>

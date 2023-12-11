@@ -147,7 +147,7 @@ function Footer(props) {
             className="flexy col-md-10 offset-md-1"
             style={{ borderTop: "solid 1px grey", paddingTop: "30px" }}
           >
-            <p style={{ flexGrow: 1 }}>
+            <p style={{ flexGrow: 1, color: "#fff" }}>
               {" "}
               @ hexxondiv global services || All rights reserved
             </p>
