@@ -27,7 +27,7 @@ function Home() {
         <div className="col-md-12 home-container col-12">
           <div className="col-md-5 offset-md-1">
             <h1>Streamlining Operations and Driving Growth.</h1>
-            <p>
+            <p style={{ color: "#fff" }}>
               Hire a team of Developers, Designers, Quality Assurance
               Specialists, DevOps Engineers, and other experts you may need to
               work hand-by-hand on your digital product.
@@ -40,49 +40,29 @@ function Home() {
         <center className="mtt">
           <h1>Some of our Trusted Partners</h1>
         </center>
-        <div className="col-md-10 offset-md-1 flexy mt2 mb5 partners">
+        <div className="col-md-10 offset-md-1 flexy mt2 mb5 partners ">
           <div className="col-md-3">
             <center>
               {" "}
-              <img
-                className="   logo"
-                src={Silverbird}
-                alt="Scholar"
-                width="100%"
-              />
+              <img className="   logo" src={Silverbird} alt="Scholar" />
             </center>
           </div>
           <div className="col-md-3 col-12">
             <center>
               {" "}
-              <img
-                className="  mt2"
-                src={Switchapp}
-                alt="Scholar"
-                width="100%"
-              />
+              <img className="  mt2" src={Switchapp} alt="Scholar" />
             </center>
           </div>
           <div className="col-md-3">
             <center>
               {" "}
-              <img
-                className=" mt1 "
-                src={Powerjet}
-                alt="Scholar"
-                width="100%"
-              />
+              <img className=" mt1 " src={Powerjet} alt="Scholar" />
             </center>
           </div>
           <div className="col-md-3">
             <center>
               {" "}
-              <img
-                className="   logo"
-                src={Educare}
-                alt="Scholar"
-                width="100%"
-              />
+              <img className="   logo" src={Educare} alt="Scholar" />
             </center>
           </div>
         </div>
@@ -96,13 +76,16 @@ function Home() {
           </div>{" "}
         </div>
 
-        <div className="col-md-10 offset-md-1 mtt">
+        <div className="col-md-10 offset-md-1 mtt products">
           <h1>Some of our Products</h1>
           <div className="flexy mt5">
             <div className="flexy col-md-8">
               <div className="col-md-3">
                 {" "}
-                <img className="" src={PJM} alt="Scholar" width="100%" />{" "}
+                <center>
+                  {" "}
+                  <img className="img-adj" src={PJM} alt="Scholar" />{" "}
+                </center>
               </div>{" "}
               <div className="col-md-9">
                 {" "}
@@ -128,10 +111,18 @@ function Home() {
                 the availability of the comfort in electricity bill/unit payment
                 and ensure adequate reliable process for this need. You can send
                 us a mail at{""}
-                <a href="#">powerjetng@gmail.com</a>
+                <a href="#" className="linked">
+                  {""} powerjetng@gmail.com
+                </a>
               </p>
             </div>
           </div>
+          <center>
+            {" "}
+            <Link to={"/products"} className="link">
+              View More
+            </Link>
+          </center>
         </div>
         <center>
           <h1 style={{ marginTop: "150px" }}>

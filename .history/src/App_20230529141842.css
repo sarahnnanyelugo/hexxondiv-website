@@ -1,3 +1,5 @@
+
+
 @media screen and (min-width: 620px) {
   .flexy {
     display: flex;
@@ -69,7 +71,6 @@ h6 {
 p {
   font-family: rebondBook;
   font-size: 16px;
-  color: rgb(101, 101, 101);
 }
 span {
   font-family: rebondBook;
@@ -77,8 +78,4 @@ span {
 ul li {
   font-family: rebondBook;
   font-size: 18px;
-  color: rgb(101, 101, 101);
-}
-ol li {
-  color: rgb(101, 101, 101);
 }

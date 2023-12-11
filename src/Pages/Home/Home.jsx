@@ -27,7 +27,7 @@ function Home() {
         <div className="col-md-12 home-container col-12">
           <div className="col-md-5 offset-md-1">
             <h1>Streamlining Operations and Driving Growth.</h1>
-            <p>
+            <p style={{ color: "#fff" }}>
               Hire a team of Developers, Designers, Quality Assurance
               Specialists, DevOps Engineers, and other experts you may need to
               work hand-by-hand on your digital product.
